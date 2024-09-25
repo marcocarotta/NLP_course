@@ -1,0 +1,1966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<basic-transcription>
+ <head>
+  <meta-information>
+   <project-name/>
+   <transcription-name/>
+   <referenced-file url="../191105.wav"/>
+   <ud-meta-information>
+    <ud-information attribute-name="Source file name">
+     C:\Users\Bozana\Desktop\191105\191105_simple.txt
+    </ud-information>
+   </ud-meta-information>
+   <comment>
+    Imported from a Simple EXMARaLDA file
+   </comment>
+   <transcription-convention/>
+  </meta-information>
+  <speakertable>
+   <speaker id="BcG">
+    <abbreviation>
+     BcG
+    </abbreviation>
+    <sex value="u"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment/>
+   </speaker>
+   <speaker id="NM">
+    <abbreviation>
+     NM
+    </abbreviation>
+    <sex value="m"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment/>
+   </speaker>
+   <speaker id="BD">
+    <abbreviation>
+     BD
+    </abbreviation>
+    <sex value="f"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment/>
+   </speaker>
+   <speaker id="KR">
+    <abbreviation>
+     KR
+    </abbreviation>
+    <sex value="m"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment/>
+   </speaker>
+   <speaker id="Dx">
+    <abbreviation>
+     DČ
+    </abbreviation>
+    <sex value="m"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment/>
+   </speaker>
+   <speaker id="Pizp">
+    <abbreviation>
+     Pizp
+    </abbreviation>
+    <sex value="m"/>
+    <languages-used/>
+    <l1/>
+    <l2/>
+    <ud-speaker-information/>
+    <comment>
+     BcG je oznaka za muziku na početku i na kraju emisije. Pizp je skraćeno od Pitanje iz publike.
+    </comment>
+   </speaker>
+  </speakertable>
+ </head>
+ <basic-body>
+  <common-timeline>
+   <tli id="T0" time="0.0"/>
+   <tli id="T1" time="25.32665287856929"/>
+   <tli id="T2" time="26.959985322699186"/>
+   <tli id="T3" time="28.599984429866346"/>
+   <tli id="T4" time="33.35998183847347"/>
+   <tli id="T5" time="35.679980575441654"/>
+   <tli id="T6" time="38.47331238805564"/>
+   <tli id="T7" time="42.194"/>
+   <tli id="T8" time="44.95997552331438"/>
+   <tli id="T9" time="49.26663984538749"/>
+   <tli id="T10" time="53.25330434167188"/>
+   <tli id="T11" time="57.786"/>
+   <tli id="T12" time="60.066633965756594"/>
+   <tli id="T13" time="61.97329959441436"/>
+   <tli id="T14" time="63.6532986798051"/>
+   <tli id="T15" time="65.5532976454256"/>
+   <tli id="T16" time="68.461"/>
+   <tli id="T17" time="71.28662785747339"/>
+   <tli id="T18" time="73.00662692108773"/>
+   <tli id="T19" time="75.199"/>
+   <tli id="T20" time="79.6733306223085"/>
+   <tli id="T21" time="82.64662167297274"/>
+   <tli id="T22" time="85.85995325693443"/>
+   <tli id="T23" time="87.642"/>
+   <tli id="T24" time="89.1666181234178"/>
+   <tli id="T25" time="93.567"/>
+   <tli id="T26" time="95.506"/>
+   <tli id="T27" time="97.08"/>
+   <tli id="T28" time="104.16660995726379"/>
+   <tli id="T29" time="106.43327538993384"/>
+   <tli id="T30" time="109.3266071481068"/>
+   <tli id="T31" time="113.79327138307427"/>
+   <tli id="T32" time="115.8666627241002"/>
+   <tli id="T33" time="120.19326789884857"/>
+   <tli id="T34" time="123.61332912717296"/>
+   <tli id="T35" time="125.17332907409121"/>
+   <tli id="T36" time="128.278"/>
+   <tli id="T37" time="131.853"/>
+   <tli id="T38" time="137.28659192639572"/>
+   <tli id="T39" time="140.4066618890837"/>
+   <tli id="T40" time="144.1133284296245"/>
+   <tli id="T712" time="146.6933283418355"/>
+   <tli id="T713" time="151.9865839235648"/>
+   <tli id="T41" time="155.336"/>
+   <tli id="T42" time="160.1332461551025"/>
+   <tli id="T714" time="163.89991077115715"/>
+   <tli id="T43" time="166.04657626915642"/>
+   <tli id="T44" time="170.657"/>
+   <tli id="T45" time="173.85332741766888"/>
+   <tli id="T46" time="175.38657118436456"/>
+   <tli id="T47" time="177.40657008465578"/>
+   <tli id="T48" time="180.46656841876037"/>
+   <tli id="T49" time="184.1465664153306"/>
+   <tli id="T50" time="187.5065645861121"/>
+   <tli id="T51" time="189.08656372594388"/>
+   <tli id="T52" time="190.858"/>
+   <tli id="T53" time="192.704"/>
+   <tli id="T54" time="198.6066599087266"/>
+   <tli id="T55" time="200.68665983795097"/>
+   <tli id="T715" time="204.09322222282714"/>
+   <tli id="T56" time="208.64655307727904"/>
+   <tli id="T57" time="210.15988558673814"/>
+   <tli id="T58" time="211.96655126983694"/>
+   <tli id="T59" time="214.35988330021505"/>
+   <tli id="T60" time="217.73321479707107"/>
+   <tli id="T61" time="223.12654519421838"/>
+   <tli id="T62" time="226.01321028935405"/>
+   <tli id="T63" time="227.49320948362686"/>
+   <tli id="T64" time="229.785"/>
+   <tli id="T65" time="233.01332540464614"/>
+   <tli id="T66" time="236.7465377793505"/>
+   <tli id="T67" time="239.53986959196453"/>
+   <tli id="T68" time="240.26653586302638"/>
+   <tli id="T69" time="242.28653476331763"/>
+   <tli id="T70" time="243.94665836595362"/>
+   <tli id="T71" time="246.19986596619214"/>
+   <tli id="T72" time="248.613197985682"/>
+   <tli id="T73" time="251.59332477242907"/>
+   <tli id="T74" time="253.894"/>
+   <tli id="T75" time="258.6933245308391"/>
+   <tli id="T76" time="260.13319171407574"/>
+   <tli id="T77" time="262.976"/>
+   <tli id="T78" time="267.0265212946076"/>
+   <tli id="T79" time="270.11985294389854"/>
+   <tli id="T716" time="272.4065183656804"/>
+   <tli id="T80" time="276.37318287285296"/>
+   <tli id="T81" time="281.9265131828946"/>
+   <tli id="T717" time="284.6733236468241"/>
+   <tli id="T82" time="286.4531773851975"/>
+   <tli id="T83" time="288.81984276342655"/>
+   <tli id="T84" time="289.97332346648227"/>
+   <tli id="T85" time="291.853174445382"/>
+   <tli id="T86" time="293.69317344366715"/>
+   <tli id="T87" time="296.46650526716934"/>
+   <tli id="T88" time="298.49998984301413"/>
+   <tli id="T89" time="301.1331693932547"/>
+   <tli id="T90" time="304.5599896368121"/>
+   <tli id="T91" time="308.21316553883"/>
+   <tli id="T92" time="310.2333227771003"/>
+   <tli id="T93" time="314.74649531534965"/>
+   <tli id="T94" time="317.38649387810653"/>
+   <tli id="T95" time="319.0864929526091"/>
+   <tli id="T96" time="322.326"/>
+   <tli id="T97" time="325.07998893858314"/>
+   <tli id="T98" time="329.81982044260553"/>
+   <tli id="T99" time="333.17315195034973"/>
+   <tli id="T100" time="336.39315019734875"/>
+   <tli id="T101" time="337.7399885078044"/>
+   <tli id="T102" time="340.84648110624164"/>
+   <tli id="T103" time="343.6264795927811"/>
+   <tli id="T104" time="346.16647820997906"/>
+   <tli id="T105" time="349.136"/>
+   <tli id="T106" time="350.37314258649315"/>
+   <tli id="T107" time="352.20665468221733"/>
+   <tli id="T108" time="353.58647417045484"/>
+   <tli id="T109" time="356.84647239567744"/>
+   <tli id="T110" time="358.5533211329276"/>
+   <tli id="T111" time="361.265"/>
+   <tli id="T112" time="363.7131353240602"/>
+   <tli id="T113" time="366.793"/>
+   <tli id="T114" time="369.90646528567925"/>
+   <tli id="T115" time="373.1399873032573"/>
+   <tli id="T116" time="375.90646201921766"/>
+   <tli id="T117" time="378.09998713448465"/>
+   <tli id="T118" time="384.634"/>
+   <tli id="T119" time="387.30645581294067"/>
+   <tli id="T120" time="391.4997868633803"/>
+   <tli id="T121" time="393.3064525464791"/>
+   <tli id="T122" time="396.29311758717364"/>
+   <tli id="T123" time="399.0397827585268"/>
+   <tli id="T124" time="400.98"/>
+   <tli id="T125" time="403.8933195901546"/>
+   <tli id="T126" time="409.31977716198924"/>
+   <tli id="T127" time="413.79"/>
+   <tli id="T128" time="416.2064400794839"/>
+   <tli id="T129" time="420.69977096660045"/>
+   <tli id="T130" time="424.73331888103706"/>
+   <tli id="T131" time="426.48643448294627"/>
+   <tli id="T132" time="429.699766066908"/>
+   <tli id="T133" time="433.2797641179193"/>
+   <tli id="T134" time="435.374"/>
+   <tli id="T135" time="439.41309411220294"/>
+   <tli id="T136" time="441.1330931758173"/>
+   <tli id="T137" time="444.154"/>
+   <tli id="T138" time="450.5264213953235"/>
+   <tli id="T139" time="451.22642101423634"/>
+   <tli id="T140" time="453.1597532950431"/>
+   <tli id="T141" time="454.7730857500613"/>
+   <tli id="T142" time="456.9130845850233"/>
+   <tli id="T143" time="458.89331771868314"/>
+   <tli id="T144" time="461.25331763838"/>
+   <tli id="T145" time="463.67974756784713"/>
+   <tli id="T146" time="466.3997460870512"/>
+   <tli id="T147" time="468.559744911125"/>
+   <tli id="T148" time="470.53974383319274"/>
+   <tli id="T149" time="473.53331722053144"/>
+   <tli id="T718" time="476.4064073059858"/>
+   <tli id="T150" time="479.8664054223263"/>
+   <tli id="T151" time="481.3664046057109"/>
+   <tli id="T152" time="483.497"/>
+   <tli id="T153" time="487.67306783896345"/>
+   <tli id="T154" time="491.5597323896889"/>
+   <tli id="T155" time="493.181"/>
+   <tli id="T156" time="495.19306374499826"/>
+   <tli id="T157" time="498.61972854615243"/>
+   <tli id="T158" time="499.26639486076704"/>
+   <tli id="T159" time="503.1930593897161"/>
+   <tli id="T160" time="504.53305866020634"/>
+   <tli id="T161" time="507.9330568092114"/>
+   <tli id="T162" time="510.81972190434715"/>
+   <tli id="T163" time="512.7533158860022"/>
+   <tli id="T164" time="514.439719933582"/>
+   <tli id="T165" time="517.7866490480675"/>
+   <tli id="T166" time="519.2663839725617"/>
+   <tli id="T167" time="523.599982183592"/>
+   <tli id="T168" time="526.7997132046711"/>
+   <tli id="T169" time="528.006379214416"/>
+   <tli id="T170" time="529.121"/>
+   <tli id="T171" time="530.0530447668563"/>
+   <tli id="T172" time="531.673315242216"/>
+   <tli id="T173" time="534.6599818072561"/>
+   <tli id="T174" time="536.059708163432"/>
+   <tli id="T175" time="538.5666483409916"/>
+   <tli id="T176" time="540.0599816235116"/>
+   <tli id="T177" time="543.5063707760569"/>
+   <tli id="T178" time="546.5997024253478"/>
+   <tli id="T179" time="549.0863677382475"/>
+   <tli id="T180" time="553.2530321365381"/>
+   <tli id="T181" time="555.423"/>
+   <tli id="T182" time="556.8666477183019"/>
+   <tli id="T183" time="558.65969585976"/>
+   <tli id="T184" time="560.2063616844054"/>
+   <tli id="T719" time="564.4530260391431"/>
+   <tli id="T185" time="566.284"/>
+   <tli id="T186" time="569.888"/>
+   <tli id="T187" time="571.964"/>
+   <tli id="T188" time="577.1930191033563"/>
+   <tli id="T189" time="579.7463510466288"/>
+   <tli id="T190" time="585.6399800725723"/>
+   <tli id="T191" time="588.434"/>
+   <tli id="T192" time="592.357"/>
+   <tli id="T193" time="596.2930087051202"/>
+   <tli id="T194" time="599.4999796009614"/>
+   <tli id="T195" time="603.3130048833601"/>
+   <tli id="T196" time="611.5130004191958"/>
+   <tli id="T197" time="614.1463323189155"/>
+   <tli id="T198" time="618.2863300650569"/>
+   <tli id="T199" time="623.066645465731"/>
+   <tli id="T200" time="625.009"/>
+   <tli id="T201" time="626.9596586765387"/>
+   <tli id="T202" time="632.6996555516237"/>
+   <tli id="T203" time="635.9396537877344"/>
+   <tli id="T204" time="638.728"/>
+   <tli id="T205" time="643.8329828238561"/>
+   <tli id="T720" time="647.7063140485069"/>
+   <tli id="T206" time="651.7129785339031"/>
+   <tli id="T207" time="656.4929759316221"/>
+   <tli id="T208" time="660.05"/>
+   <tli id="T209" time="662.6266441196326"/>
+   <tli id="T721" time="665.8129708577184"/>
+   <tli id="T210" time="669.0929690720527"/>
+   <tli id="T722" time="671.792967602145"/>
+   <tli id="T723" time="676.7462982388328"/>
+   <tli id="T211" time="685.2996269156436"/>
+   <tli id="T212" time="687.963"/>
+   <tli id="T213" time="691.5796234967471"/>
+   <tli id="T724" time="697.5462869150992"/>
+   <tli id="T214" time="699.6862857500612"/>
+   <tli id="T215" time="701.983"/>
+   <tli id="T216" time="708.774"/>
+   <tli id="T217" time="714.3329444429321"/>
+   <tli id="T218" time="715.8462769523912"/>
+   <tli id="T219" time="719.8462747747502"/>
+   <tli id="T220" time="723.926"/>
+   <tli id="T221" time="728.0396036475488"/>
+   <tli id="T222" time="730.266"/>
+   <tli id="T223" time="734.4866416744701"/>
+   <tli id="T224" time="737.2466415805563"/>
+   <tli id="T225" time="742.4462624710782"/>
+   <tli id="T226" time="750.539"/>
+   <tli id="T227" time="758.209"/>
+   <tli id="T228" time="763.3862510711272"/>
+   <tli id="T229" time="767.1662490132564"/>
+   <tli id="T230" time="768.4595816424858"/>
+   <tli id="T231" time="771.4062467049569"/>
+   <tli id="T232" time="774.6329116149931"/>
+   <tli id="T233" time="778.9595759261779"/>
+   <tli id="T725" time="782.5195739880775"/>
+   <tli id="T234" time="789.085"/>
+   <tli id="T235" time="791.7866397247373"/>
+   <tli id="T726" time="796.3862331055883"/>
+   <tli id="T236" time="799.46"/>
+   <tli id="T237" time="803.962"/>
+   <tli id="T238" time="807.7062269428641"/>
+   <tli id="T239" time="810.525"/>
+   <tli id="T240" time="816.7262220322835"/>
+   <tli id="T241" time="818.2128878895936"/>
+   <tli id="T242" time="819.7662203772763"/>
+   <tli id="T243" time="821.7128859841575"/>
+   <tli id="T244" time="824.417"/>
+   <tli id="T245" time="828.3262157171245"/>
+   <tli id="T246" time="829.8128815744344"/>
+   <tli id="T247" time="833.71"/>
+   <tli id="T248" time="836.9528776873451"/>
+   <tli id="T249" time="839.7262095108473"/>
+   <tli id="T250" time="842.3395414214552"/>
+   <tli id="T251" time="845.445"/>
+   <tli id="T252" time="848.0862049595776"/>
+   <tli id="T253" time="854.5262014535755"/>
+   <tli id="T254" time="857.6128664398291"/>
+   <tli id="T255" time="860.866637374169"/>
+   <tli id="T256" time="864.4128627378393"/>
+   <tli id="T257" time="868.406193897161"/>
+   <tli id="T727" time="871.4328589160791"/>
+   <tli id="T258" time="875.783"/>
+   <tli id="T259" time="877.649"/>
+   <tli id="T260" time="882.1999699815983"/>
+   <tli id="T261" time="885.7061844788633"/>
+   <tli id="T262" time="887.8595166398999"/>
+   <tli id="T263" time="890.6128484742902"/>
+   <tli id="T264" time="894.1399695753189"/>
+   <tli id="T265" time="897.312"/>
+   <tli id="T266" time="902.6066359538924"/>
+   <tli id="T267" time="903.9395078857827"/>
+   <tli id="T268" time="905.4861737104281"/>
+   <tli id="T728" time="907.8266357762727"/>
+   <tli id="T269" time="912.698"/>
+   <tli id="T270" time="915.2195017448349"/>
+   <tli id="T271" time="917.0395007540083"/>
+   <tli id="T272" time="918.8666354006174"/>
+   <tli id="T273" time="922.2594979121867"/>
+   <tli id="T274" time="924.822"/>
+   <tli id="T275" time="927.5866351039041"/>
+   <tli id="T276" time="930.4861601001714"/>
+   <tli id="T277" time="933.4394918256797"/>
+   <tli id="T278" time="934.9328243460271"/>
+   <tli id="T279" time="939.505"/>
+   <tli id="T280" time="943.9128194572229"/>
+   <tli id="T281" time="946.832817867545"/>
+   <tli id="T282" time="949.6866343519129"/>
+   <tli id="T283" time="952.2861482320277"/>
+   <tli id="T284" time="957.4466340878652"/>
+   <tli id="T285" time="960.063"/>
+   <tli id="T286" time="961.279"/>
+   <tli id="T287" time="966.1394740234641"/>
+   <tli id="T288" time="971.2999669498147"/>
+   <tli id="T289" time="974.2661362658899"/>
+   <tli id="T290" time="977.0928013936904"/>
+   <tli id="T291" time="980.175"/>
+   <tli id="T292" time="983.13"/>
+   <tli id="T293" time="986.219463091706"/>
+   <tli id="T294" time="991.0194604785366"/>
+   <tli id="T295" time="995.3394581266843"/>
+   <tli id="T296" time="998.67"/>
+   <tli id="T297" time="1000.9932992727802"/>
+   <tli id="T298" time="1002.4461209244087"/>
+   <tli id="T299" time="1005.1994527587991"/>
+   <tli id="T300" time="1007.7394513759971"/>
+   <tli id="T301" time="1011.458"/>
+   <tli id="T302" time="1015.0332987950446"/>
+   <tli id="T303" time="1017.8799653648485"/>
+   <tli id="T304" time="1021.3127773198684"/>
+   <tli id="T305" time="1024.2194424041156"/>
+   <tli id="T306" time="1026.6394410866428"/>
+   <tli id="T307" time="1029.6"/>
+   <tli id="T308" time="1031.7661049622996"/>
+   <tli id="T309" time="1035.352769676348"/>
+   <tli id="T310" time="1036.6861022838011"/>
+   <tli id="T311" time="1038.102"/>
+   <tli id="T312" time="1041.7927661703459"/>
+   <tli id="T313" time="1043.3127653428423"/>
+   <tli id="T314" time="1046.2327637531644"/>
+   <tli id="T315" time="1049.01"/>
+   <tli id="T316" time="1053.8327596156462"/>
+   <tli id="T317" time="1058.949"/>
+   <tli id="T318" time="1061.499422108501"/>
+   <tli id="T319" time="1063.0999638261587"/>
+   <tli id="T320" time="1065.325"/>
+   <tli id="T321" time="1067.199963686649"/>
+   <tli id="T322" time="1069.3060845251382"/>
+   <tli id="T323" time="1072.439"/>
+   <tli id="T324" time="1076.3994139967879"/>
+   <tli id="T325" time="1079.746078841495"/>
+   <tli id="T326" time="1082.3594107521028"/>
+   <tli id="T729" time="1084.999963080973"/>
+   <tli id="T327" time="1089.7194067452433"/>
+   <tli id="T328" time="1093.0460716008383"/>
+   <tli id="T329" time="1095.0594038380923"/>
+   <tli id="T330" time="1098.1527354873833"/>
+   <tli id="T331" time="1101.899400114326"/>
+   <tli id="T332" time="1106.1127311538773"/>
+   <tli id="T333" time="1109.817"/>
+   <tli id="T334" time="1111.8793946811118"/>
+   <tli id="T335" time="1115.006059645589"/>
+   <tli id="T336" time="1119.2060573590659"/>
+   <tli id="T337" time="1122.439961807011"/>
+   <tli id="T338" time="1124.6127210822876"/>
+   <tli id="T339" time="1127.8527193183984"/>
+   <tli id="T340" time="1130.6193844788634"/>
+   <tli id="T341" time="1135.4060485396194"/>
+   <tli id="T342" time="1139.999379372295"/>
+   <tli id="T730" time="1141.8660450227292"/>
+   <tli id="T731" time="1145.7527095734545"/>
+   <tli id="T343" time="1148.8593745488201"/>
+   <tli id="T344" time="1151.1060399923783"/>
+   <tli id="T345" time="1155.5393709121593"/>
+   <tli id="T346" time="1158.07270286632"/>
+   <tli id="T347" time="1159.4993687562946"/>
+   <tli id="T348" time="1163.5126999047282"/>
+   <tli id="T349" time="1169.1326968451424"/>
+   <tli id="T350" time="1171.5726955167813"/>
+   <tli id="T351" time="1174.4393606228052"/>
+   <tli id="T352" time="1177.118"/>
+   <tli id="T353" time="1179.4726912159404"/>
+   <tli id="T354" time="1182.115"/>
+   <tli id="T355" time="1187.1593536979067"/>
+   <tli id="T356" time="1189.4393524566515"/>
+   <tli id="T357" time="1194.032683289327"/>
+   <tli id="T358" time="1197.1126816125434"/>
+   <tli id="T359" time="1200.9660128480823"/>
+   <tli id="T360" time="1202.929"/>
+   <tli id="T361" time="1208.099342297956"/>
+   <tli id="T732" time="1210.6666254716108"/>
+   <tli id="T362" time="1217.239337322046"/>
+   <tli id="T363" time="1221.4993350028583"/>
+   <tli id="T364" time="1226.2332916085943"/>
+   <tli id="T365" time="1231.412662939271"/>
+   <tli id="T366" time="1235.4459940768163"/>
+   <tli id="T367" time="1239.0193254647902"/>
+   <tli id="T368" time="1241.9459905381493"/>
+   <tli id="T369" time="1249.188"/>
+   <tli id="T370" time="1253.9259840161146"/>
+   <tli id="T371" time="1257.393290548321"/>
+   <tli id="T372" time="1261.331"/>
+   <tli id="T373" time="1266.8599568928673"/>
+   <tli id="T374" time="1270.002"/>
+   <tli id="T375" time="1272.7132900270308"/>
+   <tli id="T376" time="1275.53263891989"/>
+   <tli id="T377" time="1277.2526379835042"/>
+   <tli id="T378" time="1278.9993036992678"/>
+   <tli id="T379" time="1280.3526362958328"/>
+   <tli id="T380" time="1283.7059678035766"/>
+   <tli id="T381" time="1287.1132895370456"/>
+   <tli id="T382" time="1290.0392976889782"/>
+   <tli id="T383" time="1293.7599559775476"/>
+   <tli id="T384" time="1300.5326253096334"/>
+   <tli id="T385" time="1301.97929118872"/>
+   <tli id="T386" time="1304.4859564907313"/>
+   <tli id="T387" time="1308.045954552631"/>
+   <tli id="T388" time="1312.5126187875983"/>
+   <tli id="T389" time="1315.3126172632496"/>
+   <tli id="T390" time="1317.8992825217083"/>
+   <tli id="T391" time="1322.247"/>
+   <tli id="T392" time="1324.4526122873397"/>
+   <tli id="T393" time="1326.5659444701528"/>
+   <tli id="T394" time="1328.9859431526797"/>
+   <tli id="T395" time="1333.8259405177341"/>
+   <tli id="T396" time="1336.8466211781151"/>
+   <tli id="T397" time="1340.6926034461171"/>
+   <tli id="T733" time="1345.5192674850969"/>
+   <tli id="T398" time="1348.976"/>
+   <tli id="T399" time="1351.8592640335357"/>
+   <tli id="T400" time="1355.6325953126275"/>
+   <tli id="T401" time="1357.6532871367986"/>
+   <tli id="T402" time="1361.459258807197"/>
+   <tli id="T403" time="1365.2399535453155"/>
+   <tli id="T404" time="1367.745922051338"/>
+   <tli id="T405" time="1369.936"/>
+   <tli id="T406" time="1375.0325847510683"/>
+   <tli id="T407" time="1377.9192498462041"/>
+   <tli id="T408" time="1380.6999530192618"/>
+   <tli id="T409" time="1384.6392461877672"/>
+   <tli id="T410" time="1386.319245273158"/>
+   <tli id="T411" time="1388.7325772926479"/>
+   <tli id="T412" time="1391.7259089963798"/>
+   <tli id="T413" time="1394.7459073522607"/>
+   <tli id="T414" time="1397.406619117455"/>
+   <tli id="T415" time="1399.646619041235"/>
+   <tli id="T416" time="1402.2592365952582"/>
+   <tli id="T417" time="1405.1199521883286"/>
+   <tli id="T418" time="1407.981"/>
+   <tli id="T419" time="1411.0258984892614"/>
+   <tli id="T420" time="1414.7258964749435"/>
+   <tli id="T421" time="1417.7192281786756"/>
+   <tli id="T422" time="1420.4725600130657"/>
+   <tli id="T423" time="1423.82589152081"/>
+   <tli id="T424" time="1429.4192218090755"/>
+   <tli id="T425" time="1431.8992204589379"/>
+   <tli id="T426" time="1434.2325525219806"/>
+   <tli id="T734" time="1436.1238308467236" type="intp"/>
+   <tli id="T427" time="1439.3858830497863"/>
+   <tli id="T428" time="1440.9925488417673"/>
+   <tli id="T429" time="1442.3458814383318"/>
+   <tli id="T430" time="1444.702"/>
+   <tli id="T431" time="1447.0992121839017"/>
+   <tli id="T432" time="1449.9992106051122"/>
+   <tli id="T433" time="1451.4258764950869"/>
+   <tli id="T434" time="1453.065875602254"/>
+   <tli id="T435" time="1457.6992064131528"/>
+   <tli id="T436" time="1459.7192053134443"/>
+   <tli id="T437" time="1461.9325374418158"/>
+   <tli id="T438" time="1464.9932834843667"/>
+   <tli id="T439" time="1466.785868132945"/>
+   <tli id="T440" time="1468.1325340664725"/>
+   <tli id="T441" time="1471.4391989329558"/>
+   <tli id="T442" time="1477.4858623077553"/>
+   <tli id="T443" time="1481.4525268149278"/>
+   <tli id="T444" time="1484.5858584424423"/>
+   <tli id="T445" time="1489.9058555461797"/>
+   <tli id="T446" time="1495.7191857146747"/>
+   <tli id="T447" time="1497.0791849742766"/>
+   <tli id="T735" time="1499.6991835479216"/>
+   <tli id="T448" time="1504.4725142826035"/>
+   <tli id="T449" time="1512.1925100797562"/>
+   <tli id="T450" time="1514.9591752402212"/>
+   <tli id="T736" time="1517.9249982115184" type="intp"/>
+   <tli id="T451" time="1523.012504189237"/>
+   <tli id="T737" time="1528.7325010752104"/>
+   <tli id="T738" time="1533.5724984402648"/>
+   <tli id="T739" time="1537.7922492201324" type="intp"/>
+   <tli id="T452" time="1543.3058264746712"/>
+   <tli id="T453" time="1547.09994735721"/>
+   <tli id="T454" time="1548.188"/>
+   <tli id="T455" time="1549.3932806125088"/>
+   <tli id="T456" time="1553.6258208563574"/>
+   <tli id="T457" time="1555.0724867354438"/>
+   <tli id="T458" time="1558.5932802994625"/>
+   <tli id="T459" time="1562.6458159457768"/>
+   <tli id="T460" time="1566.0791474099683"/>
+   <tli id="T461" time="1573.6391432942264"/>
+   <tli id="T463" time="1576.933279675412"/>
+   <tli id="T464" time="1578.9658070610012"/>
+   <tli id="T465" time="1580.867"/>
+   <tli id="T466" time="1583.392471317745"/>
+   <tli id="T467" time="1585.4391368701854"/>
+   <tli id="T468" time="1589.9199459001843"/>
+   <tli id="T462" time="1594.1132790908325"/>
+   <tli id="T469" time="1598.258"/>
+   <tli id="T470" time="1602.016"/>
+   <tli id="T471" time="1605.153"/>
+   <tli id="T472" time="1608.836"/>
+   <tli id="T473" time="1614.3266117363717"/>
+   <tli id="T474" time="1616.839"/>
+   <tli id="T475" time="1621.0257841631053"/>
+   <tli id="T476" time="1623.856"/>
+   <tli id="T477" time="1626.9257809510846"/>
+   <tli id="T478" time="1629.178"/>
+   <tli id="T479" time="1633.4791107167161"/>
+   <tli id="T480" time="1635.9991093448023"/>
+   <tli id="T740" time="1639.0266108959108"/>
+   <tli id="T741" time="1643.5324385769115"/>
+   <tli id="T742" time="1648.1724360508479"/>
+   <tli id="T481" time="1649.5057686583011"/>
+   <tli id="T743" time="1652.4057670795112"/>
+   <tli id="T482" time="1654.2590994038708"/>
+   <tli id="T483" time="1657.2199436101841"/>
+   <tli id="T484" time="1660.3990960611918"/>
+   <tli id="T485" time="1665.475"/>
+   <tli id="T486" time="1668.3124250864253"/>
+   <tli id="T487" time="1670.7657570841384"/>
+   <tli id="T488" time="1673.2790890491874"/>
+   <tli id="T489" time="1674.5257550371562"/>
+   <tli id="T490" time="1676.511"/>
+   <tli id="T491" time="1679.559085630291"/>
+   <tli id="T492" time="1681.897"/>
+   <tli id="T493" time="1685.982"/>
+   <tli id="T494" time="1688.2599425539938"/>
+   <tli id="T744" time="1692.5199424090395"/>
+   <tli id="T495" time="1694.385"/>
+   <tli id="T496" time="1698.2457421237445"/>
+   <tli id="T497" time="1701.8524068269048"/>
+   <tli id="T498" time="1704.1857388899473"/>
+   <tli id="T499" time="1705.8790713014128"/>
+   <tli id="T500" time="1710.4524021449765"/>
+   <tli id="T501" time="1717.0790652040178"/>
+   <tli id="T745" time="1719.5123972126191"/>
+   <tli id="T502" time="1721.226"/>
+   <tli id="T503" time="1723.421"/>
+   <tli id="T504" time="1727.405726248741"/>
+   <tli id="T505" time="1731.844"/>
+   <tli id="T506" time="1734.3390558074964"/>
+   <tli id="T507" time="1737.619940874433"/>
+   <tli id="T746" time="1740.02479413377" type="intp"/>
+   <tli id="T508" time="1742.0523849416122"/>
+   <tli id="T509" time="1744.412383656804"/>
+   <tli id="T510" time="1746.2923826333126"/>
+   <tli id="T511" time="1748.0057150338896"/>
+   <tli id="T512" time="1750.7257135530938"/>
+   <tli id="T513" time="1753.6390453003785"/>
+   <tli id="T514" time="1756.8457102213029"/>
+   <tli id="T515" time="1758.5190426436563"/>
+   <tli id="T516" time="1761.4190410648664"/>
+   <tli id="T517" time="1764.881"/>
+   <tli id="T518" time="1766.179"/>
+   <tli id="T519" time="1768.5123705365165"/>
+   <tli id="T520" time="1770.769"/>
+   <tli id="T521" time="1772.2457018373846"/>
+   <tli id="T522" time="1775.2266062614672"/>
+   <tli id="T523" time="1777.3390323978551"/>
+   <tli id="T524" time="1780.10569755832"/>
+   <tli id="T525" time="1784.4323618695046"/>
+   <tli id="T526" time="1786.215"/>
+   <tli id="T527" time="1788.9856927239568"/>
+   <tli id="T528" time="1791.4723580368566"/>
+   <tli id="T529" time="1793.6056902087812"/>
+   <tli id="T748" time="1796.5056886299917"/>
+   <tli id="T530" time="1798.19"/>
+   <tli id="T747" time="1800.2656865830088"/>
+   <tli id="T531" time="1803.5466052978293"/>
+   <tli id="T532" time="1807.4590160002178"/>
+   <tli id="T533" time="1809.0123484879007"/>
+   <tli id="T534" time="1812.599013201949"/>
+   <tli id="T535" time="1814.926604910605"/>
+   <tli id="T536" time="1816.8866048439124"/>
+   <tli id="T537" time="1820.709"/>
+   <tli id="T538" time="1824.033271267401"/>
+   <tli id="T539" time="1826.598"/>
+   <tli id="T540" time="1829.5656706317882"/>
+   <tli id="T541" time="1832.0190026295018"/>
+   <tli id="T542" time="1833.7323350300787"/>
+   <tli id="T543" time="1835.7656672564444"/>
+   <tli id="T544" time="1839.7189984375425"/>
+   <tli id="T545" time="1841.3123309034488"/>
+   <tli id="T546" time="1844.8599372254039"/>
+   <tli id="T547" time="1850.3589926450172"/>
+   <tli id="T548" time="1853.0523245120721"/>
+   <tli id="T549" time="1855.338989933854"/>
+   <tli id="T550" time="1857.872321888015"/>
+   <tli id="T551" time="1861.0056535155293"/>
+   <tli id="T749" time="1866.1532698341944"/>
+   <tli id="T552" time="1870.979936336625"/>
+   <tli id="T553" time="1874.604"/>
+   <tli id="T554" time="1878.1132694272346"/>
+   <tli id="T555" time="1881.3523091052616"/>
+   <tli id="T556" time="1884.164"/>
+   <tli id="T557" time="1886.5256396221791"/>
+   <tli id="T558" time="1890.9589705419603"/>
+   <tli id="T559" time="1898.0866020809403"/>
+   <tli id="T560" time="1902.7656307809564"/>
+   <tli id="T561" time="1906.2332684704022"/>
+   <tli id="T562" time="1913.0522918474562"/>
+   <tli id="T563" time="1917.065"/>
+   <tli id="T564" time="1920.8722875901676"/>
+   <tli id="T565" time="1924.252"/>
+   <tli id="T566" time="1926.3189512916133"/>
+   <tli id="T567" time="1932.244"/>
+   <tli id="T568" time="1935.0122798922068"/>
+   <tli id="T569" time="1936.9056121947901"/>
+   <tli id="T750" time="1940.3456103220187"/>
+   <tli id="T751" time="1945.8789406429485"/>
+   <tli id="T570" time="1948.251"/>
+   <tli id="T571" time="1949.8322718240468"/>
+   <tli id="T572" time="1953.3856032229087"/>
+   <tli id="T573" time="1954.5132668275905"/>
+   <tli id="T574" time="1956.412268241827"/>
+   <tli id="T575" time="1957.536"/>
+   <tli id="T576" time="1959.3122666630375"/>
+   <tli id="T577" time="1960.213"/>
+   <tli id="T578" time="1961.8989319214961"/>
+   <tli id="T579" time="1964.6255971037374"/>
+   <tli id="T580" time="1967.238929014345"/>
+   <tli id="T581" time="1971.138926891145"/>
+   <tli id="T582" time="1973.2255924218089"/>
+   <tli id="T583" time="1975.513"/>
+   <tli id="T752" time="1979.6122556115088"/>
+   <tli id="T584" time="1982.005587641887"/>
+   <tli id="T585" time="1987.612"/>
+   <tli id="T753" time="1990.7122495685549"/>
+   <tli id="T586" time="1992.6122485341753"/>
+   <tli id="T754" time="1994.9522472602553"/>
+   <tli id="T755" time="1997.9680661682373" type="intp"/>
+   <tli id="T587" time="2001.0065985789065"/>
+   <tli id="T588" time="2004.332242153687"/>
+   <tli id="T589" time="2007.1865983686214"/>
+   <tli id="T590" time="2009.1055728883687"/>
+   <tli id="T591" time="2014.6922365135968"/>
+   <tli id="T592" time="2018.452234466614"/>
+   <tli id="T593" time="2021.2188996270788"/>
+   <tli id="T594" time="2023.013264496758"/>
+   <tli id="T595" time="2027.379931014841"/>
+   <tli id="T596" time="2029.6855616844055"/>
+   <tli id="T597" time="2032.4465975091057"/>
+   <tli id="T598" time="2035.4522252116396"/>
+   <tli id="T599" time="2038.6399306317"/>
+   <tli id="T600" time="2043.0255544219722"/>
+   <tli id="T601" time="2047.3322187440453"/>
+   <tli id="T602" time="2049.424"/>
+   <tli id="T603" time="2055.179930068897"/>
+   <tli id="T604" time="2060.783"/>
+   <tli id="T605" time="2064.2055428913627"/>
+   <tli id="T606" time="2066.812208138934"/>
+   <tli id="T607" time="2070.179929558496"/>
+   <tli id="T756" time="2074.9185179754923" type="intp"/>
+   <tli id="T608" time="2079.258868029507"/>
+   <tli id="T609" time="2081.147"/>
+   <tli id="T758" time="2083.519929104579"/>
+   <tli id="T610" time="2086.3521975011568"/>
+   <tli id="T611" time="2089.8121956174973"/>
+   <tli id="T612" time="2094.312193167651"/>
+   <tli id="T613" time="2097.047"/>
+   <tli id="T614" time="2101.535"/>
+   <tli id="T615" time="2105.8132616793428"/>
+   <tli id="T616" time="2109.352184979721"/>
+   <tli id="T617" time="2110.738"/>
+   <tli id="T618" time="2113.832182540763"/>
+   <tli id="T619" time="2116.587"/>
+   <tli id="T620" time="2120.198845741351"/>
+   <tli id="T621" time="2121.161"/>
+   <tli id="T622" time="2125.298842964858"/>
+   <tli id="T757" time="2128.6321744834904"/>
+   <tli id="T623" time="2129.8465941949"/>
+   <tli id="T624" time="2134.7932606932472"/>
+   <tli id="T625" time="2137.4065939376574"/>
+   <tli id="T759" time="2141.425500852002"/>
+   <tli id="T760" time="2144.438832544846"/>
+   <tli id="T626" time="2146.5265936273336"/>
+   <tli id="T627" time="2149.0054967253727"/>
+   <tli id="T628" time="2151.4332601270426"/>
+   <tli id="T629" time="2155.825493012494"/>
+   <tli id="T630" time="2161.0988234749707"/>
+   <tli id="T631" time="2166.36548727441"/>
+   <tli id="T632" time="2171.8121509758557"/>
+   <tli id="T633" time="2174.296"/>
+   <tli id="T634" time="2177.13881474263"/>
+   <tli id="T635" time="2178.192147502518"/>
+   <tli id="T761" time="2182.445478520293"/>
+   <tli id="T636" time="2186.2732589415505"/>
+   <tli id="T637" time="2189.425474720309"/>
+   <tli id="T762" time="2191.1454737839235"/>
+   <tli id="T638" time="2195.865471214307"/>
+   <tli id="T639" time="2200.105468906008"/>
+   <tli id="T640" time="2201.898801263032"/>
+   <tli id="T641" time="2203.3254671530067"/>
+   <tli id="T642" time="2204.878"/>
+   <tli id="T643" time="2207.105465095136"/>
+   <tli id="T644" time="2208.9654640825324"/>
+   <tli id="T645" time="2212.0587957318235"/>
+   <tli id="T646" time="2214.159"/>
+   <tli id="T647" time="2216.118793521518"/>
+   <tli id="T648" time="2220.044"/>
+   <tli id="T649" time="2225.1321219479"/>
+   <tli id="T650" time="2228.012120379998"/>
+   <tli id="T763" time="2230.8732574239575"/>
+   <tli id="T764" time="2236.0805287059993" type="intp"/>
+   <tli id="T651" time="2238.052114914119"/>
+   <tli id="T652" time="2239.653257125202"/>
+   <tli id="T765" time="2241.725446247652"/>
+   <tli id="T766" time="2244.5521113754526"/>
+   <tli id="T653" time="2247.7121096551164"/>
+   <tli id="T654" time="2250.16544165283"/>
+   <tli id="T767" time="2254.525439279201"/>
+   <tli id="T655" time="2257.981"/>
+   <tli id="T656" time="2261.318"/>
+   <tli id="T657" time="2262.679"/>
+   <tli id="T658" time="2265.1187668454145"/>
+   <tli id="T659" time="2266.836"/>
+   <tli id="T660" time="2268.9854314070285"/>
+   <tli id="T661" time="2272.739922666037"/>
+   <tli id="T662" time="2275.201"/>
+   <tli id="T663" time="2278.127"/>
+   <tli id="T664" time="2282.8720905136506"/>
+   <tli id="T665" time="2285.8"/>
+   <tli id="T666" time="2287.504"/>
+   <tli id="T667" time="2289.7520867681083"/>
+   <tli id="T668" time="2291.273255368741"/>
+   <tli id="T669" time="2293.17325530409"/>
+   <tli id="T670" time="2296.8987495440565"/>
+   <tli id="T671" time="2299.3854148569562"/>
+   <tli id="T672" time="2302.7865883103136"/>
+   <tli id="T673" time="2305.6054114707244"/>
+   <tli id="T674" time="2308.162"/>
+   <tli id="T675" time="2310.5187421291885"/>
+   <tli id="T676" time="2314.2920734082804"/>
+   <tli id="T677" time="2316.6587387865097"/>
+   <tli id="T678" time="2319.032070827776"/>
+   <tli id="T679" time="2323.5120683888176"/>
+   <tli id="T680" time="2325.605400582519"/>
+   <tli id="T681" time="2330.8787310449957"/>
+   <tli id="T682" time="2333.965396031249"/>
+   <tli id="T768" time="2339.2053931785395"/>
+   <tli id="T683" time="2344.8532535455874"/>
+   <tli id="T684" time="2348.1653883006234"/>
+   <tli id="T685" time="2349.539"/>
+   <tli id="T686" time="2352.298719383728"/>
+   <tli id="T687" time="2354.92538462041"/>
+   <tli id="T688" time="2359.225382279446"/>
+   <tli id="T689" time="2361.845380853091"/>
+   <tli id="T690" time="2364.339919549186"/>
+   <tli id="T691" time="2366.3320450771703"/>
+   <tli id="T692" time="2368.945376987778"/>
+   <tli id="T693" time="2370.885375931622"/>
+   <tli id="T694" time="2372.405375104119"/>
+   <tli id="T695" time="2374.458707319596"/>
+   <tli id="T696" time="2377.1387058605765"/>
+   <tli id="T697" time="2378.7732523914"/>
+   <tli id="T698" time="2381.778703334513"/>
+   <tli id="T699" time="2384.645368440537"/>
+   <tli id="T700" time="2387.145367079511"/>
+   <tli id="T701" time="2390.7320317935596"/>
+   <tli id="T702" time="2393.605363562621"/>
+   <tli id="T703" time="2396.47"/>
+   <tli id="T704" time="2400.7653596646433"/>
+   <tli id="T705" time="2404.7720241500397"/>
+   <tli id="T706" time="2410.5853543185344"/>
+   <tli id="T707" time="2413.392019457223"/>
+   <tli id="T708" time="2418.092016898495"/>
+   <tli id="T709" time="2419.2986829082397"/>
+   <tli id="T710" time="2421.3053484824563"/>
+   <tli id="T711" time="2449.132"/>
+  </common-timeline>
+  <tier category="v" display-name="BcG [v]" id="TIE1" speaker="BcG" type="t">
+   <event end="T1" start="T0">
+    ----------------------------------------
+   </event>
+   <event end="T711" start="T710">
+    ----------------------------------------------------------
+   </event>
+  </tier>
+  <tier category="v" display-name="NM [v]" id="TIE4" speaker="NM" type="t">
+   <event end="T4" start="T1">
+    Oni su ti koji zagađuju,oni su ti koji ometaju prevoz, oni su ti koji grade i ruše širom ovog grada.
+   </event>
+   <event end="T9" start="T4">
+    Vidimo da popločavanje Trga se predstavlja kao zidanje piramide otprilike. To je neverovatan graditeljski poduhvat, koji se nikako ne završava. U najavi je podizanje različitih novih skulptura.
+   </event>
+   <event end="T11" start="T9">
+    Stiže skulptura Stefana Nemanje, negde iz Rusije. U isto vreme, vidimo neverovatnu zapuštenost u različitim delovima grada.
+   </event>
+   <event end="T12" start="T11">
+    Savski kej je jedan od primera,
+   </event>
+   <event end="T13" start="T12">
+    Zemunski kej je drugi primer.
+   </event>
+   <event end="T16" start="T13">
+    Ko šeta Zemunskim kejom, može da vidi da je započeta nezakonska izgradnja luke.
+   </event>
+   <event end="T17" start="T16">
+    Na primer Gardoš je i dalje razvaljen.
+   </event>
+   <event end="T20" start="T17">
+    Neposredno pred ovu tribinu, imao sam nisam našao knjigu koju sam tražio, pa sam pitao da li imate knjigu autora jednog tu sad poznatog o Beogradu.
+   </event>
+   <event end="T21" start="T20">
+    Oni su rekli imamo ja sam pogledao tu knjigu i iznenadio sam se.
+   </event>
+   <event end="T23" start="T21">
+    Nikad ne bi rekao čovek šta može da piše u toj knjizi Gorana Vesića.
+   </event>
+   <event end="T25" start="T23">
+    To su podaci koje je on napisao: na primer, da je trenutno obnova Đumrukane na Savi,
+   </event>
+   <event end="T26" start="T25">
+    na predlog Nikole Selakovića.
+   </event>
+   <event end="T27" start="T26">
+    Tako tamo piše.
+   </event>
+   <event end="T29" start="T27">
+    Da će biti spomenici  profesorima, uglednim profesorima na Studentskom trgu, na predlog Milovana Vitezovića.
+   </event>
+   <event end="T30" start="T29">
+    Da u liniji revolucionara,
+   </event>
+   <event end="T31" start="T30">
+    od Ajfela do Gorana Vesića, je uvek bio trnovit put.
+   </event>
+   <event end="T32" start="T31">
+    Neverovatne su stvari,
+   </event>
+   <event end="T34" start="T32">
+    ali je dobro da se piše i da sve to stoji unutra  jer će za buduće istraživače zaista prestvaljati neke okusnice
+   </event>
+   <event end="T35" start="T34">
+    tačno vidi kako to ide,
+   </event>
+   <event end="T37" start="T35">
+    da li možemo da ucrtamo barem neke tačke u toj mapi grada i da shvatimo šta se dešava.
+   </event>
+   <event end="T731" start="T342">
+    Koji se često pominje, ja sam pomenuo ovog velikog pisca najnovijeg i autora knjige o Beogradu
+   </event>
+   <event end="T345" start="T731">
+    i sve se svodi na jednog čoveka koji je izvođač radova. Problem nije u njemu, problem je u sistemu, u njegovom nalogodavcu, partiji, interesnoj grupi koju on zastupa,
+   </event>
+   <event end="T347" start="T345">
+    a mi često volimo da pojednostavimo stvari  i za sve je kriv Goran Vesić.
+   </event>
+   <event end="T348" start="T347">
+    Ne, Goran Vesić je samo izvođač režima.
+   </event>
+   <event end="T349" start="T348">
+    Promena zakona i drugačiji zakoni i drugačiji postupci koji su za nas važni.
+   </event>
+   <event end="T472" start="T469">
+    Jednostavno uvek se treba setiti ili podsetiti te male činjenice da jedan bivši predsednik ima  nelegalno sagrađenu kuću na keju.
+   </event>
+   <event end="T473" start="T472">
+    Dve. Izvinjavam se, izvinjavam se – ima se, može se – Tako je. Dve.
+   </event>
+   <event end="T474" start="T473">
+    I živi u tuđoj.
+   </event>
+   <event end="T477" start="T474">
+    Znači ako vam predsednik države to radi, kao uzor, šta onda očekujete od nekog lokalnog tamo negde predsednika opštine,
+   </event>
+   <event end="T478" start="T477">
+    prvog čoveka kraja?
+   </event>
+   <event end="T740" start="T478">
+    Zašto se onda čudimo kad su poplave svakog proleća, kada krene, kada svi imaju kuće na kanalima i kada je opšta katastrofa u ovoj zemlji.
+   </event>
+   <event end="T741" start="T740">
+    Evo na kraju sada su požari ali ruski Južin treba da stigne
+   </event>
+   <event end="T481" start="T741">
+    međuvremnu je pao sneg ali daleko je Rusija. I ovaj. Može, može, izvolite.
+   </event>
+   <event end="T501" start="T500">
+    Da pogledamo stvari iz drugog ugla i da vidimo šta je moguće drugačije,
+   </event>
+   <event end="T502" start="T501">
+    da li je moguće ovo zaustaviti? Kako je moguće sve zaustaviti?
+   </event>
+  </tier>
+  <tier category="v" display-name="BD [v]" id="TIE7" speaker="BD" type="t">
+   <event end="T40" start="T37">
+    Imamo znači jednu situaciju u kojoj u poslednjih nekoliko godina, ne samo u Srbiji, nego i u mnogim drugim autoritarnim zemljama u Evropi, A ja smatram da u Evropi u većem brojem evropskih zemalja
+   </event>
+   <event end="T712" start="T40">
+    među njima i neke zemlje su članice EU,
+   </event>
+   <event end="T713" start="T712">
+    vladaju autoratirarani režimi karakteristika tih autoratirarnih režima
+   </event>
+   <event end="T42" start="T713">
+    kao što je recimo slučaj Srbiji u Hrvatskoj i u Mađarskoj takođe je izgradnja znači hiperprodukcija spomeničke plastike.
+   </event>
+   <event end="T44" start="T42">
+    Vi imate samo u Hrvatskoj slučaj da je pre jedno dve godine bio taj podatak sada je mnogo možda ima više, ukupno do osamostaljivanja izgrađeno 33 spomenika Franji Tuđmanu;
+   </event>
+   <event end="T45" start="T44">
+    ovaj a s obzirom da je li da
+   </event>
+   <event end="T48" start="T45">
+    moramo u to uvek vreme  uvek poredimo s onim vremenom tamoza koje su nam rekli da je bilo totalitarno i autoritarno,
+   </event>
+   <event end="T49" start="T48">
+    reći ćemo da, za razliku od tih 33 spomenika Franji Tuđmanu,
+   </event>
+   <event end="T52" start="T49">
+    je li da u Zagrebu, niti u centru Zagrebu niti u centru Beograda, niti u centru Ljubljane nikad nije bio nijedan spomenik Josipu Brozu Titu.
+   </event>
+   <event end="T54" start="T52">
+    Danas je lako praviti skulpture; postoje ovaj tehnologije koje mogu da simuliraju tradicionalnu formu
+   </event>
+   <event end="T56" start="T54">
+    mogu da kažem kako da simulirajuI to se u mnogo čemu koristi tako da je zapravo  znači prva karakteristika ove spomeničke sklupture,
+   </event>
+   <event end="T60" start="T56">
+    a o kojoj ću najmanje govoriti, zato što nije u domenu koruptivnosti . Znači, nema nikakve sumnje da se koristi  jedna situacija u kojoj je relativno zapravo jeftina
+   </event>
+   <event end="T61" start="T60">
+    proizvodnja takve vrste plastike u odnosu na novac koji se u to ulaže.
+   </event>
+   <event end="T63" start="T61">
+    Druga karakteristika – da pođem od nekih osnovnih karakteristika – svakako je ta autoritarnost,
+   </event>
+   <event end="T64" start="T63">
+    u smislu donošenja odluka o tome
+   </event>
+   <event end="T65" start="T64">
+    koji će se spomenik i gde podići.
+   </event>
+   <event end="T69" start="T65">
+    Ta autoritarnost je sada transparentna, potpuno otvorena.  Mi vrlo dobro znamo da je ne znam spomenik Vudrou Vilsonu, američkom predsedniku, je inicijativa Aleksandra Vučića.
+   </event>
+   <event end="T72" start="T69">
+    Mi znamo da je Aleksandar Vučić čak rekao da mu se neke zgrade u centru grada ne sviđaju, da ih treba srušiti – možda će i to da se desi.
+   </event>
+   <event end="T74" start="T72">
+    Sećam se još pre nekoliko godina kada je prvi put imao te estetske izlive,
+   </event>
+   <event end="T77" start="T74">
+    pa je rekao da je zgrada Generalštaba ružna znači Dobrovićeva čuvena zgrada je l da je ona ružna i da nema veze mislim što je NATO srušio.
+   </event>
+   <event end="T79" start="T77">
+    Do te mere da čak i mislim da je NATO avijacija obavila neku vrstu raščišćavanja terena za ovu vrstu izgradnje.
+   </event>
+   <event end="T717" start="T79">
+    Do te mere da pogledam na tim mestima gde je obavljeno bombardovanje se upravo kako da kažem se znači. Tu gde je bio savezni SUP sad se zidaju neki ogromni soliteri… To se nekako zove,ne znam kako se zove. Možda će te znati vi.
+   </event>
+   <event end="T84" start="T717">
+    Skylimit! Sky is the limit.Autoritarnost se ne postiže samo tim bronzanim spomenicima i kamenim
+   </event>
+   <event end="T88" start="T84">
+    nego takođe i tim velikim bilbordima kao što je onaj koji ste sigurno videli na zgradi Generalštaba, sa citatom Živojina Mišića jednom jako atraktivnom mladom potporučnicom
+   </event>
+   <event end="T90" start="T88">
+    koja je ovaj tu treba da služi kao neka vrsta reklame za takozvanu namensku industriju Je l da
+   </event>
+   <event end="T93" start="T90">
+    koji se zapravo reklamira tu.Tako da imate milion tih primera, gde mi ne znamo je l da ko donosi odluke, na koji način se donose odluke i zašto se te odluke donose.
+   </event>
+   <event end="T96" start="T93">
+    Kolega Makuljević je napisao nekoliko odličnih tekstova na Peščaniku upravo o tome, između ostalog upravo o spomeniku Stefanu Nemanji,
+   </event>
+   <event end="T101" start="T96">
+    gde i on postavlja upravo to pitanje: A zbog čega se podiže spomenik upravo Stefanu Nemanji? Znači zašto je baš on izabran kao ta ličnost?Je l' da i sad, naravno, odgovor na to pitanje bi mogao da bude vrlo jednostavan i banalan:
+   </event>
+   <event end="T105" start="T101">
+    pa pre svega zato što se predsednik Aleksandar Vučić želi poistovetiti s nekim ko se  doživljava sa nečim ovaj prve srpske države. To, što nam isto , istorijski nije tačno i da sam nacionalista,
+   </event>
+   <event end="T108" start="T105">
+    ja bih se pobunio, pošto je poznato da ipak kod Konstantina Porfirogenita
+   </event>
+   <event end="T110" start="T108">
+    piše da je bio neki tamo župan Vlastimir. I bili su i neki u IX veku
+   </event>
+   <event end="T113" start="T110">
+    koji su i za koje se može reći da su možda ti prvi koji su kakvu-takvu državu osnovali. Tako da,znači, čak i te stvari nisu sasvim tačne,
+   </event>
+   <event end="T115" start="T113">
+    a da ne govorim o ikonografiji koju je i kolega Makuljević ovaj dobro opisao,
+   </event>
+   <event end="T117" start="T115">
+    koji zaista nikakve veze nema s nečim što bi možda mogao da bude nekakav tradicionalni okvir.
+   </event>
+   <event end="T119" start="T117">
+    U kojem se tako nešto moglo ovaj podvići kao što znači je htenje je jednostavno znači: vođa hoće da se poistoveti sa Stefanom Nemanjom.
+   </event>
+   <event end="T122" start="T119">
+    Druga karakteristika odnosno treća već karakteristika na kojoj bih se malo duže zadržao, meni je vrlo ona kako da kažem mi je posebno interesantna,
+   </event>
+   <event end="T125" start="T122">
+    a to je neka vrsta kolonijalnoj ili autokolonijalnog momenta u izgradnji spomenika u Beogradu.
+   </event>
+   <event end="T127" start="T125">
+    I to je novo, to nismo do sada imali i to je vrlo interesantno u svo busanje je l' da? nacionalno iz kojih se tog šinjela ispala ova sadašnja politička garnitura,
+   </event>
+   <event end="T130" start="T127">
+    mi imamo trenutno situaciju da kada se neka strana država pojavi u Beogradu sa kešom i sa idejom da se podigne neki spomenik,
+   </event>
+   <event end="T133" start="T130">
+    njima se izlazi u susret. To su te reči, najčešće, „izašli smo im u susret“. Taj fenomen, je naravno koji mnogi drugi fenomeni koje ovde opisujemo,
+   </event>
+   <event end="T134" start="T133">
+    počeo za prethodnoga vakta.
+   </event>
+   <event end="T137" start="T134">
+    Jezgra onoga što će eksplodirati danas, smo imali u prethodnom režimu. A to je taj čuveni spomenik Gajdaru Alijevu,
+   </event>
+   <event end="T141" start="T137">
+    koji je zapravo prvi spomenik jednom totalitarnom vođi u Beogradu. Ja mislim da u Beogradu ne postoji spomenik totalitarnom vođu, upravo zato što čak ni Tito,
+   </event>
+   <event end="T144" start="T141">
+    koji je za neke – za mene ne, ali za neke je bio totalitarni vođa – čak ni on nije je l' da imao spomenik u centru grada.
+   </event>
+   <event end="T146" start="T144">
+    Znači vi imate na ulazu u Tašmajdanski park, pored spomenika Miloradu Paviću,
+   </event>
+   <event end="T149" start="T146">
+    znači jednom književniku svakako zaslužnom Opet, kako god ko mislio i kakvi ukusi oko njegove literature budu.
+   </event>
+   <event end="T152" start="T149">
+    Odjednom značajne ličnosti, njih dvojica flankiraju, njih dvojica kako da kažem vas uvode u Tašmajdanski park zašto što je država Azerbejdžan, odnosno sin Gajdara Alijeva,
+   </event>
+   <event end="T153" start="T152">
+    koji je sadašnji aktuelni predsednik te države,
+   </event>
+   <event end="T155" start="T153">
+    ovaj je l' da odrešila kesu i donela taj projekat, i ovi su rekli, naravno, može.
+   </event>
+   <event end="T159" start="T155">
+    Nije to jedini, usamljeni primer. Rusija je tu najaktivnija: imate taj spomenik caru Nikolaju, ništa se ne zna iz  kog razloga je taj spomenik caru Nikolaju usred centra grada,
+   </event>
+   <event end="T164" start="T159">
+    s pogledom na Skupštinu. napravljen i u krajnjoj liniji, taj spomenik Stefanu Nemanji koji je očigledno isto ruska inicijativa. Jer oko tog spomenika upravo postoji vrlo jasna dokumentacija
+   </event>
+   <event end="T165" start="T164">
+    da je jedan od članova žirija,
+   </event>
+   <event end="T167" start="T165">
+    Miodrag Živković, koji je jedan od tih veoma poznatih skulptora
+   </event>
+   <event end="T172" start="T167">
+    koji su izvodili i u ono vreme socijalističko nekih od čuvenih spomenika kao što je onaj na Tjentištu, Kadinjači i tako dalje izašao iz te komisije
+   </event>
+   <event end="T175" start="T172">
+    de se ispostavilo da tako komisija sastavljena od devet članova od kojih su pet političari, a četri su kao neki ljudi navodno iz struke,
+   </event>
+   <event end="T176" start="T175">
+    koji su naravno bili preglasani.
+   </event>
+   <event end="T180" start="T176">
+    I Selaković koji je vodio, u ime ruskog interesa. Zato ja kažem kolonijalni model znači – mi sad imamo tu garnituru koja u ime stranog interesa donosi određene odluke.
+   </event>
+   <event end="T183" start="T180">
+    Mađarski interes je takođe prisutan, tu je taj Sibinjanin Janko. Mađarska je tu jako aktivna
+   </event>
+   <event end="T186" start="T183">
+    imate u Slovačkoj niz primera, da znači bukvalno u svakom selu u Slovačkoj  gde je nekad Mađar neki ušao, ili ne daj bože, umro, ili tako nešto je mađarska država
+   </event>
+   <event end="T187" start="T186">
+    platila izgradnju spomenika.
+   </event>
+   <event end="T192" start="T187">
+    I taj spomenik Sibinjanin Janku na Zemunskom keju me dovodi do četvrte kako da kažem karakteristike – a to je izuzetno loša izvedba znači izuzetno loš kvalitet te spomeničke plastike, prednjači taj spomenik Sibinjanin Janku, koje onako već ide u domen komedije i komičnog.
+   </event>
+   <event end="T193" start="T192">
+    Konačno, peta i ostala je glavna možda ipak karakteristika
+   </event>
+   <event end="T194" start="T193">
+    je to da ne postoji apsolutno nikakva svest,
+   </event>
+   <event end="T195" start="T194">
+    ni kakva želja ni kakva potreba da se
+   </event>
+   <event end="T197" start="T195">
+    ideja o spomeniku da se način razumevanja uloge spomenika u javnom prostoru, ili uopšte onoga što zovemo u javnom prostoru,
+   </event>
+   <event end="T198" start="T197">
+    umetnost javnom prostoru oslobodi logike totema.
+   </event>
+   <event end="T199" start="T198">
+    Postoji jedan jedini oblik trenutno spomeničke skulpture
+   </event>
+   <event end="T200" start="T199">
+    –to je ta forma totema.
+   </event>
+   <event end="T201" start="T200">
+    Znači to je erektivni,
+   </event>
+   <event end="T203" start="T201">
+    ovaj falusoidni oblik koji zapravo predstavlja nekakvu važnu ličnost, najveće 99% slučajeva to je muškarac je l' da?
+   </event>
+   <event end="T204" start="T203">
+    koji nešto simbolički treba da predstavi.
+   </event>
+   <event end="T720" start="T204">
+    Pa inače, spomenik Stefanu Nemanji će biti visok 28 metara. Tako smo saznali, pazite 28 metara,
+   </event>
+   <event end="T208" start="T720">
+    evo ja sam razmišljao koji je to figuralni spomenik Koji je najveći figuralni spomenik u Srbiji u ovom trenutku i najverovatnije je to spomenik Stjepanu Filipoviću Vojina Bakića
+   </event>
+   <event end="T209" start="T208">
+    koji se kao što znate nalazi iznad Valjeva,
+   </event>
+   <event end="T721" start="T209">
+    znači na onom brdu pa ne gde onako skroz gore
+   </event>
+   <event end="T211" start="T721">
+    pa ta njegova veličina ima itekakvog smisla je l' da? . I vi kada njemu priđete, vi ste u nekom parku. I tako sad Zamislite, usred centra grada je l' da? Da, Imate nešto što je visoko 28. Koliko je to spratova Ksenija 28 metara kolika je ta spratnost pet plus devet?
+   </event>
+   <event end="T503" start="T502">
+    Kao što vrlo dobro znamo,
+   </event>
+   <event end="T504" start="T503">
+    političke okolnosti takve da na vidiku
+   </event>
+   <event end="T505" start="T504">
+    promena trenutne političke garniture nije na dnevnom redu.
+   </event>
+   <event end="T506" start="T505">
+    To je sasvim jasno. Svima nama to sasvim jasno.
+   </event>
+   <event end="T507" start="T506">
+    da se to u nekoj bližoj budućnosti neće dogoditi.
+   </event>
+   <event end="T508" start="T507">
+    I sad do tada dok se to ne dogodi. Mi moramo da imamo takozvane
+   </event>
+   <event end="T509" start="T508">
+    skromne predloge i male korake.
+   </event>
+   <event end="T512" start="T509">
+    Mnogi od tih skromnih predloga i malih ovde se već nalazi. Sedim ovde s ljudima koji su neverovatno aktivni
+   </event>
+   <event end="T513" start="T512">
+    u iznalaženju i dovijanju,
+   </event>
+   <event end="T518" start="T513">
+    i u pokušajima borbe i otpora i pronalaženja i iznalaženja rešenja za to. I pitanja je pridružiti se njima, to je moj predlog svima– pridružiti se već postojećim inicijativama, to je već jako mnogo.
+   </event>
+   <event end="T521" start="T518">
+    Druga stvar koju možemo da uradimo je, naravno, kako da kažemo svaka forma protesta, svaka forma reakcije.
+   </event>
+   <event end="T524" start="T521">
+    Ne dozvoliti stvari da se događaju, koliko je god to u našoj maloj moći. Jer neke od tih stvari. Ipak imamo nekih malih učinaka.
+   </event>
+   <event end="T526" start="T524">
+    Imamo taj slučaj sa gondolom je l' da?  Koji ipak na neki način usporen, ne zna se šta će se s tim desiti.
+   </event>
+   <event end="T527" start="T526">
+    Znači tu je reagovala Evropa nostra,
+   </event>
+   <event end="T530" start="T527">
+    zaista ozbiljni stručnjaci kao što su Irina Subotić i Višnja Kisić. Koji su se jako angažovali? Opet jako veleki angažman. Ljudi, bez tog angažmana nema ništa.
+   </event>
+   <event end="T531" start="T530">
+    Mi smo imali, ponovo, izvinite opet.U titoizmu smo imali jedan vrlo jasan način kako se to radilo.
+   </event>
+   <event end="T532" start="T531">
+    Imali ste inicijative koje su dolazile od društvenih organizacija
+   </event>
+   <event end="T534" start="T532">
+    – to je najčešće bio SUBNOR, ali i neke druge društvene organizacije su pokrenule inicijativu,
+   </event>
+   <event end="T535" start="T534">
+    onda bi se formirali stručni odbori.
+   </event>
+   <event end="T537" start="T535">
+    Nije tačno da je Tito odlučivao. On je možda od par spomenika postoji samo dva slučaja gde je Tito
+   </event>
+   <event end="T539" start="T537">
+    Gde je Tito, zaista umešao svoje prste kad su spomenici u pitanju: jedan je spomenik Bogdana Bogdanovića u Jasenovcu.
+   </event>
+   <event end="T541" start="T539">
+    To se zaista smatra da je on tu odluku doneo  da to upravo bude Bogdana Bogdanovića spomenik
+   </event>
+   <event end="T544" start="T541">
+    da je tu zaista on mesto. A druga je što nije dozvolio da njegov spomenik na konju u Užicu; bude i ono
+   </event>
+   <event end="T546" start="T544">
+    spomenik Kršinićev u Užicu je trebalo da bude konjanička skulptura.
+   </event>
+   <event end="T547" start="T546">
+    Pa je onda Tito navodno rekao da to suvše liči na kneza Mihajla i bana Jelačića.
+   </event>
+   <event end="T549" start="T547">
+    Je l' da? I dajte to osnujte? šta je rešenje? Rešenje je politizacija javnog prostora
+   </event>
+   <event end="T551" start="T549">
+    – ne političarenje u javnom prostoru, kakvo imamo ovde, nego zaista politizacija javnoga prostora.
+   </event>
+   <event end="T749" start="T551">
+    Ovaj i takođe i ono što kako da kažem je jako važno.
+   </event>
+   <event end="T553" start="T749">
+    I to da ne zaboravimo znači i te način na koji je javni prostor već klasno podeljen.
+   </event>
+   <event end="T555" start="T553">
+    Znači vi imate apsolutno jasno u ovom trenutku fokus garniture na centar grada,
+   </event>
+   <event end="T556" start="T555">
+    tu je šminkanje onako žestoko.
+   </event>
+   <event end="T557" start="T556">
+    Vi kada odete u neku periferiju,
+   </event>
+   <event end="T558" start="T557">
+    to su zone koje su već onako postaju sve više i više getoji.
+   </event>
+   <event end="T559" start="T558">
+    Ovaj znači tu je sasvim jasno da je ovo se radi o jednoj ozbiljnoj džentrifikaciji
+   </event>
+   <event end="T561" start="T559">
+    koja je sada kako da kažem u rukama jedne male grupe moćnika i kapitala u čijem interesu ti moćnici rade.
+   </event>
+  </tier>
+  <tier category="v" display-name="KR [v]" id="TIE10" speaker="KR" type="t">
+   <event end="T214" start="T211">
+    Potpuno sad je već očigledno da se grad, odnosno delovi grada posmatraju kao izvor zarade, posmatraju se jednostrano u odnosu na čitav grad kao organizam znači delovi se izdvajaju
+   </event>
+   <event end="T217" start="T214">
+    Praktično, njima se trguje kao robom koja je za ono što nazivamo investitorima vrlo konkretan izvor zarade. Gde se svaki metar kvadratni, pa u stvari metar kubni lepo premerava,
+   </event>
+   <event end="T219" start="T217">
+    zna se njegova vrednost, dok je na primer za vlast tradicionalno svaki taj komadić
+   </event>
+   <event end="T222" start="T219">
+    u stvari izvor kratkotrajne zarade, skoka u budžetu nečega što može na kraju godine fino da se podvuče i da se prikaže da smo negde napredovali.
+   </event>
+   <event end="T223" start="T222">
+    Dok su institucije tu one koje bi trebalo da daju
+   </event>
+   <event end="T224" start="T223">
+    kontekst svakom tom parčencetu,
+   </event>
+   <event end="T227" start="T224">
+    u smislu prošlosti i njegove vrednosti za budućnost našeg grada, ustvari, sada svedene na neki protočni bojler i svedene su na puke izvršitelje interesa ustvari ekonomski jedne vladajuće elite praktično koja znači radi vlast u sprezi sa privatnim kapitalom.
+   </event>
+   <event end="T229" start="T227">
+    Mi možemo razvoj tih događaja da pratimodobro ajde od na primer prvih talasa privatizacije.
+   </event>
+   <event end="T232" start="T229">
+    Kad su se istrošile, te privatizacije, videli smo na primer u Beogradu na vodi. Kada je čitav državni aparat, zapravo upregnut
+   </event>
+   <event end="T235" start="T232">
+    jer nije postojao način da se to drugačije otme, nego da se znači da se čitav državni aparat upregnei da odvoji parče najvrednijih delova obale Beograda ustvari da postane privatno vlasništvo
+   </event>
+   <event end="T237" start="T235">
+    na tom parčetu ne samo da se opet znači da je pronađen novi model privatizacije opetog javnog zemljišta, već se tu ispituju i novi modeli upravljanja javnim zemljištem.
+   </event>
+   <event end="T239" start="T237">
+    Evo Čavić je skore imao prilike na Sava promenadi, onom što se tako sada brendirano naziva,
+   </event>
+   <event end="T240" start="T239">
+    da ustvari privatno obezbeđenje kontroliše pristup tom području.
+   </event>
+   <event end="T243" start="T240">
+    U ovom slučaju, je Čavić prisustvovao tome da privatno obezbeđenje
+   </event>
+   <event end="T244" start="T243">
+    ne dopušta izbeglicama da tu borave.
+   </event>
+   <event end="T246" start="T244">
+    Dešavalo se da su sa tog prostora bili isterani novinari, da su im kamere oduzimane.
+   </event>
+   <event end="T249" start="T246">
+    I na primer ako želite da danas da tamo organizujete neki javni događaj sačekaće vas informacija da, osim gradskim institucijama,
+   </event>
+   <event end="T251" start="T249">
+    za dozvolu da organizacijete javnog događaja na Savskom keju morate da se obratite
+   </event>
+   <event end="T252" start="T251">
+    i privatnoj firmi Beograd na vodi d.o.o.
+   </event>
+   <event end="T255" start="T252">
+    Nešto što je neposrednije bitnije za širi broj građana na primer popunjavanje novobeogradskih blokovaznači svake zelene površine novom izgradnjom.
+   </event>
+   <event end="T257" start="T255">
+    Koji je isto jedan vid privatizacije tog prostora: Zato što u sistemu kako se planovi trenutno razvijaju,
+   </event>
+   <event end="T727" start="T257">
+    zapravo ne postoji mehanizam koji bi obezbedio
+   </event>
+   <event end="T259" start="T727">
+    čak ni onim slučajevima retkim kada je na papiru obezbeđen  poštovanje javnog interesa.
+   </event>
+   <event end="T261" start="T259">
+    Na primer, eto na ovom području može da se digne stambeni objekat, ali ovda moramo da dodamo školu, vrtić, dom zdravlja.
+   </event>
+   <event end="T262" start="T261">
+    Zapravo nije uspostavljen mehanizam
+   </event>
+   <event end="T728" start="T262">
+    kojim ta nova izgradnja kvadrata može da bude uslovljena izgradnjom one infrastrukture koja treba taj novi život zapravo da podrži. I zbog toga imamo sada se dešava da se tu i pakuje i pakuje a da nam je svima ukupnouključujući i tim novim stanarima.Sve teže da živimo u tim blokovima.
+   </event>
+   <event end="T272" start="T728">
+    Ne postoji sto za kojim sede i donosioci odluka i institucije, stručna lica, građani i ti investitori, za koje mi možemo da razgovaramo o tome kako te interese da uskladimo.
+   </event>
+   <event end="T275" start="T272">
+    To sada izgleda više kao nekakv švedski sto, gde investitor dođe, pokupi šta mu treba, institucije se polome da mu omoguće sve.
+   </event>
+   <event end="T279" start="T275">
+    Sistem planiranja grada ne svodi se samo na to ko poseduje zemljište, šta će na njemu biti izgrađeno. Činjenica je da kad se evo pominjali smo kada zaglavimo se u prevozu,
+   </event>
+   <event end="T281" start="T279">
+    to nije samo zato što je možda rukovodstvo GSP-a nema baš dobre poslovne sposobnosti,
+   </event>
+   <event end="T283" start="T281">
+    to je i zbog toga što ne postoji infrastruktura koja može da podrži ovu veliku izgradnju.
+   </event>
+   <event end="T284" start="T283">
+    Zbog toga što se blokovi popunjavaju sve više i više zgradama,
+   </event>
+   <event end="T286" start="T284">
+    novim kvadratima, a ne šire se putevi, ne dodaju se novi.
+   </event>
+   <event end="T287" start="T286">
+    To je zbog toga što je grad rešio da, na primer, prvu liniju metroa,
+   </event>
+   <event end="T291" start="T287">
+    koja je trebalo da opsluži visokofrekventan pravac od Zemuna do Ustaničke, zameni nekom linijom koja u ovom trenutku treba ide od Makiša do Ade Huje. Ustvari koja sada kao su prazne livade,
+   </event>
+   <event end="T292" start="T291">
+    ali će u nastavku postati polja za
+   </event>
+   <event end="T294" start="T292">
+    opet ispunjavanje tih privatnih interesa. Ali u nekoj tamoj fazi do tada ćemo mi čekati zaglavljeni u prevozu.
+   </event>
+   <event end="T297" start="T294">
+    Znači zaglavljeni smo i zbog toga što se brišu biciklističke staze, zato što se grade garaže u samom centru grada. Skoro je potpisana koncesija sa Kinezima
+   </event>
+   <event end="T300" start="T297">
+    za izgradnju garaže, sad u tom paketu je i Studentski trg, garaža ispod Trga Republike, u Fruškogorskoj –
+   </event>
+   <event end="T301" start="T300">
+    što je ustvari neka uličica pored spomenika nesvrstanih,
+   </event>
+   <event end="T302" start="T301">
+    pored Brankovog mosta čudno i u Vlajkovićevoj.
+   </event>
+   <event end="T303" start="T302">
+    Dovođenje novih automobila u centar grada,
+   </event>
+   <event end="T305" start="T303">
+    a da se ne ukidaju parking mesta na površini, takođe samo povećava taj problem
+   </event>
+   <event end="T307" start="T305">
+    i zapravo su to isti razlozi zbog kojih ne možemo da dišemo ovih dana.
+   </event>
+   <event end="T310" start="T307">
+    Kada se donosi neki planski dokument, u ovom trenutaku postoje samo dva trenutka kada građani mogu u njemu da učestvuju.
+   </event>
+   <event end="T312" start="T310">
+    To je rani javni uvid, gde se bi trebalo da se razgovara u nekim opštim crticima.
+   </event>
+   <event end="T315" start="T312">
+    To je jednostrani proces: vi napišete nešto, niko ne mora da vam odgovori. Ne postoji mesto gde se o tome razgovara, i to je to.
+   </event>
+   <event end="T316" start="T315">
+    U kasnijoj fazi postoji javni uvid, koji traje 30 dana.
+   </event>
+   <event end="T319" start="T316">
+    One obe stvari se oglašavaju na sajtu beograd.rs  – ne znam koliko je ljudi ikad otišlo samoinicijativno na taj sajt da vidi šta ima novo,
+   </event>
+   <event end="T321" start="T319">
+    da li se možda nešto menja u vašoj ulici.  A to je jedino mesto gde možete da saznate,
+   </event>
+   <event end="T323" start="T321">
+    i u jednim dnevnim novinama,  koje ovaj ne znam koje su u ovom trenutku zato što se i to menja.
+   </event>
+   <event end="T729" start="T323">
+    Na sajtu se zakače planovi koji su vrlo retko u pdf-u, uglavnom su u nekim formatima koji nisu čitljivi na prosečnom kompjuteru. Znači neko mora već da poseduje i tehničko
+   </event>
+   <event end="T327" start="T729">
+    i jedno posebno i specifično znanje da bi tome pristupio,
+   </event>
+   <event end="T328" start="T327">
+    neki tekstovi koji ipak zahtevaju nekakvo objašnjenje.
+   </event>
+   <event end="T332" start="T328">
+    I da postoji i ta javna rasprava, to je ta jedan dan gde se vi susretnete sa komisijom za planove to se zove javna rasprava iako to rasprav nije to su neke konsultacije. Tu nisu otvorena pitanja, to je zadnji korak u čitavom tom sistemu.
+   </event>
+   <event end="T334" start="T332">
+    Gomila slučajeva koji su u zadnje vreme potresali javnost su zapravo oni slučajevi
+   </event>
+   <event end="T335" start="T334">
+    koji se nikad ne nađu ni u toj jadnoj proceduri
+   </event>
+   <event end="T337" start="T335">
+    – na primer, zatvaranje centra grada pretvaranje u pešačku zonu, rekonstrukcija Trga Republike, rekonstrukcija Gardoša,
+   </event>
+   <event end="T339" start="T337">
+    zeleni bulevar, ovo što se naziva odnosno ceo potez od 27. marta,
+   </event>
+   <event end="T340" start="T339">
+    Cara Dušana do ustvari Kališa
+   </event>
+   <event end="T342" start="T340">
+    – to su sve projekti koji ne prolaze čak ni tu proceduru lažnu. Kakva jeste. Znači nemamo nikakvu mogućnost da u njima učestvujemo.
+   </event>
+   <event end="T564" start="T561">
+    Sad smo pomnuli gondolu. Ja se nesećam kad sam skorije bila toliko srećna  kada se zapravo većina stručnjaka Republičkog zavoda za zaštitu spomenika javno oglasila povodom procedure
+   </event>
+   <event end="T566" start="T564">
+    donošenja plana za izgradnju te žičare od Ušća do Kalemegdana.
+   </event>
+   <event end="T569" start="T566">
+    Znači oni su javno istupili preko 20 ljudi čini mi se i rekli da unutar i te institucije nisu ispoštovane procedure, da oni sami nisu bili uključeni.
+   </event>
+   <event end="T751" start="T569">
+    I čini mi se da im je ta javnost čitavog tog događaja ipak zaslužila kao leđa za takav jedan
+   </event>
+   <event end="T570" start="T751">
+    U ovim uslovima, zaista hrabar čin.
+   </event>
+   <event end="T573" start="T570">
+    Sigurno je njihova brojnost, ali čini mi se javnost ali na kraju krajeva to jesta bila odluka,  koju je svako od tih ljudi
+   </event>
+   <event end="T574" start="T573">
+    morao sam za sebe da donese,
+   </event>
+   <event end="T580" start="T574">
+    ali mislim da je to za našu zajedničku budućnost zato što ako želimoda od tog švedskog stola da napravimo sto za dijalog o razvoju našeg grada, dijalog na kojem se definišu vrednosti
+   </event>
+   <event end="T581" start="T580">
+    i definiše taj javni interes koji na tim vrednostima počiva
+   </event>
+   <event end="T752" start="T581">
+    – da na kraju krajeva, to svako od nas mora da donese tu odluku, da skupi hrabrost i da preuzme svoju ulogu u tom
+   </event>
+   <event end="T585" start="T752">
+    ja zaista u tom jačanju institucije. Mislim podršku našu institucijama i tim stručnjacima tamo vidim neku .
+   </event>
+   <event end="T586" start="T585">
+    Možda je to sada faza da mi je to jako uzbudljivo ali milsim da bez toga neće biti
+   </event>
+   <event end="T755" start="T586">
+    Mnogo to je jedan veliki resurs. Mi imamo te ljude koji su zarobljeni tamo koji pate.
+   </event>
+   <event end="T587" start="T755">
+    Treba ih pogurati i mislim da da.
+   </event>
+   <event end="T626" start="T625">
+    To je jedna od ovoga kada pričamo o učešća građana da to sve toliko jadno da nam se sad opet ta anketa  Branko je pominjao primer uklanjanja
+   </event>
+   <event end="T628" start="T626">
+    partizanskih statua ispred opštine Voždovac. Ovo je sličan model po tome da se
+   </event>
+   <event end="T631" start="T628">
+    odluka o budućnosti starog savskog mosta sada znači dešava na nekoj elektronskoj anketi gde oni, prvo, građani nisu svi ne mogu nemaju pristup takvom vidu odlučivanja,
+   </event>
+   <event end="T633" start="T631">
+    a drugo ima indicija da je i ta elektronska anketa nameštena, kao što je bilo u slučaju na Voždovcu.
+   </event>
+   <event end="T637" start="T633">
+    mislim to je očigledno farsa. Nama se to podmeće, i oni će izjavljivati na televiziji da je eto ta odluka doneta  kao da su građani to birali građani su hteli nešto ili nešto. Mi smo čuli pre mesec dana da smo mi to već odabrali
+   </event>
+   <event end="T638" start="T637">
+    da onda smo, pre dve godine, da smo odabarli da stari savski most bude nasukan na u park Ušće.
+   </event>
+   <event end="T642" start="T638">
+    To je Vesić rekao. Jednom kad su mogli da nas pitaju o tome, to je bilo u trenutku kad se donosio Prostorni plan područja posebne namene za Beograd na vodi,
+   </event>
+   <event end="T644" start="T642">
+    jer on uključuje i taj most i jedan deo obale preko puta.
+   </event>
+   <event end="T648" start="T644">
+    I taj most se u tom rešenju zadržavao uz njega su se dodavale nekakve trake da bi se povećao protok saobraćaja, koji je neophodan da bi opslužio tu grozotu od Beograda na vodi.
+   </event>
+   <event end="T763" start="T648">
+    I ta odluka je iz leđa onda ukinuta i preinačeno, u nešto znači mi sad čujemo da je to bilo preskupo. Meni se čini da je ideja da se on.
+   </event>
+   <event end="T652" start="T763">
+    Ja ne mogu da to pojmim uopšte da ti kao vi stavite takav most uz park  i dodate nekakve lokle ispod   onda je bila neka izjava da
+   </event>
+   <event end="T653" start="T652">
+    Glavni gradski urbanisti je rekao: "da imaju neki nelegalni lokali koji zaboga onda će oni biti tu useljeni zato što su sad nelegalni u parku"
+   </event>
+   <event end="T654" start="T653">
+    Milsim to je neka toliko velika zbrka.
+   </event>
+   <event end="T767" start="T654">
+    Meni su to mi je neko najsuludnije rešenje.
+   </event>
+   <event end="T658" start="T767">
+    Ali sigurna sam da bismo morali da budemo sposobni da zapravo otvorimo to pitanje i da zaista pričamo o tome šta taj most znači i na kom mestu može da znači više,
+   </event>
+   <event end="T659" start="T658">
+    a ne manje za Beograd.
+   </event>
+   <event end="T686" start="T685">
+    Ljudi su pokušavali svašta,
+   </event>
+   <event end="T689" start="T686">
+    pokušavali smo istovremeno sve što nam ikad padne na pamet povodom Beograda na vodi – i održavali smo proteste i išli na javne rasprave,
+   </event>
+   <event end="T690" start="T689">
+    pisali po dve hiljade primedbi ljudi to je .
+   </event>
+   <event end="T692" start="T690">
+    Ne znam da li se ikad ponovilo da se gradska uprava sretne sa tolikom količinom
+   </event>
+   <event end="T693" start="T692">
+    primedbi koje su pisali stručnjaci.
+   </event>
+   <event end="T697" start="T693">
+    Znači, nije izostala, nisu bili neinformisani, vrlo je jedan ozbiljan pristup tome bio, da se da podrška ljudima
+   </event>
+   <event end="T700" start="T697">
+    da na stručan način obrazlože to pitanje Pisali smo predloge Republičkom javnom tužilaštvu jer se desila ozbiljnih povreda zakona,
+   </event>
+   <event end="T701" start="T700">
+    predlog za utvrđivanje ništavosti tog ugovora
+   </event>
+   <event end="T702" start="T701">
+    i ništa od toga nije uspelo u tom konkretnom slučaju.
+   </event>
+   <event end="T705" start="T702">
+    Jeste uspelo je da se tema razvoja i krađe grada prenese u te male sitne blokove, gde se sada trvemo oko par stotina kvadrata zemljišta,
+   </event>
+   <event end="T710" start="T705">
+    i koje zapravo mogu da uspeju jer  ovo kao primer onoga šta može da nam se desi ako ne reagujemo. Tako da super bi bilo svi dajemo sve od sebe, sve ideje su dobre, svi treba sve da radimo sve što nam padne na pamet i to je to.
+   </event>
+  </tier>
+  <tier category="v" display-name="DČ [v]" id="TIE13" speaker="Dx" type="t">
+   <event end="T350" start="T349">
+    E pa mi smo zahvalni Goranu Vesiću,
+   </event>
+   <event end="T351" start="T350">
+    zato što nas je Goran Vesić organizovao.
+   </event>
+   <event end="T352" start="T351">
+    Govorim o Inicijativi „Ne dam kej“.
+   </event>
+   <event end="T354" start="T352">
+    Znači pre godinu i kusur dana, Goran Vesić je najavio rekonstrukciju savskog keja
+   </event>
+   <event end="T355" start="T354">
+    u zaleđu novobeogradskih blokova 70, 44 i 45
+   </event>
+   <event end="T356" start="T355">
+    po ugledu na Sava promenadu.
+   </event>
+   <event end="T357" start="T356">
+    Sava promenada tu je 80% površina asfaltirano.
+   </event>
+   <event end="T360" start="T357">
+    Stabla se uglavnom sade u one kadice u kojima se dave pri većim padavinama i onda ih menjaju. Njihova funkcija estetska.
+   </event>
+   <event end="T732" start="T360">
+    Jedino i sada mi svi koji živimo u novobeogradskim blokovima, a nas dvojica smo jedni od tih,
+   </event>
+   <event end="T363" start="T732">
+    izrasla je malo ta vegetacija nam je izrasla ali živimo u ljutom betonu i stvarno nam je savski nasip jedina preostala oaza.
+   </event>
+   <event end="T364" start="T363">
+    Na našem savskom keju je 80% površina zelenih,
+   </event>
+   <event end="T365" start="T364">
+    travnih površina; stabla su posađena u zemljište, kao što i dolikuje.
+   </event>
+   <event end="T366" start="T365">
+    I postoji niz drugih problema koji su se pojavili u međuvremenu.
+   </event>
+   <event end="T368" start="T366">
+    Između ostalog, najnovija pojava je da mi praktično više ne možemo da vidimo reku od splavova.
+   </event>
+   <event end="T369" start="T368">
+    Postoji znači deo iza bloka 45 do Ostružničkog mosta, s leve strane, na leva strana Save,
+   </event>
+   <event end="T371" start="T369">
+    znači tu postoji nasip i nebranjeni deo ka reci koji sam ja kao dete sa svojim drugarima na biciklu osvajao,
+   </event>
+   <event end="T372" start="T371">
+    putujući iz bloka 70. Tu je bilo ništa, nije bio čestar.
+   </event>
+   <event end="T374" start="T372">
+    I onda je negde početkom 2000-ih su počele da niču prve neke sojenice tamo i to uglavnom ljudi koji su projektovali reni-bunare,
+   </event>
+   <event end="T375" start="T374">
+    koji se tamo i tamo nalaze.
+   </event>
+   <event end="T380" start="T375">
+    Beograd se na dva načina snabdeva pijaćom vodom: jedan je prerada savske vode, i ta voda je slabijeg kvaliteta od one koju dobijamo putem oko 150 reni-bunara koji crpe podzemne vode.
+   </event>
+   <event end="T381" start="T380">
+    Te vode je manje potrebno tretirati u obradi.
+   </event>
+   <event end="T383" start="T381">
+    I mnogi od tih reni-bunara se nalazi upravo duž čitavog savskog nasipa.
+   </event>
+   <event end="T385" start="T383">
+    I uglavnom šta se dešava 2000 -te da je ostalo na tih 10-15 sojenica niko se ne bi bunio, niko ih ne bi primećivao,
+   </event>
+   <event end="T389" start="T385">
+    to je postala top lokacija za opet ljude koji su pripadnici nekih elita i kojima je tako super, milsim dobra ideja imati vikendicu ili neki objekat odmah na ivici grada, u prirodi.
+   </event>
+   <event end="T393" start="T389">
+    I to je preraslo u eldorado. Bukvalno, znači. Taj kraj je poznat po tome što s jednog kraja imate kuću Tomislava Nikolića, s drugog Ljubiše Buhe Čumeta,
+   </event>
+   <event end="T397" start="T393">
+    a između ima svega i svačega. Mi imamo informacije da tu ima ljudi koji su trenutno aktuelni pomoćnici u ministarstvima, penzionisani načelnici policijskih stanica u Beograd.
+   </event>
+   <event end="T399" start="T397">
+    Tu ima mnogo problema. Problemi su što se tu gradi kao generalno u startu su svima njima dozvoljavli Beogradvode ili Srbijavode  dižu to se da dižu sojenice,
+   </event>
+   <event end="T400" start="T399">
+    a onda su ljudi počeli da grade kuće od čvrste građe,
+   </event>
+   <event end="T401" start="T400">
+    pa da buše septičke jame.
+   </event>
+   <event end="T403" start="T401">
+    Znači oni bukvalno vrše nuždu nad tim drenovima tih reni-bunara iz kojih se mi snabdevamo svi vodom i.
+   </event>
+   <event end="T405" start="T403">
+    vodu koju svi pijemo, pa i ti ljudi koji tamo nužde u svoje septičke jame.
+   </event>
+   <event end="T408" start="T405">
+    Jako je komplikovano kada kontaktirate sa institucijama koje su nadležne i kada im tražite Na primer, saznali smo da postoji neka procena
+   </event>
+   <event end="T410" start="T408">
+    ili studija o zaštiti Beograda od visokih voda Save i Dunava, pa smo tražili da nam to daju
+   </event>
+   <event end="T413" start="T410">
+    zahtevom za informacije od javnog značaja. Pa su oni u Srbijavodama rekli ne možemo to da vam damo, to je kao neka tajna: „Možete da dođete pa da pogledate“.
+   </event>
+   <event end="T414" start="T413">
+    Onda smo mi došli i nas trojica
+   </event>
+   <event end="T418" start="T414">
+    i tu su bila dva vodna inspektora i onda ovaj oni su tako nešto s nama pričali, valjda im nije jasno bilo koje smo budale, ili ko treba ko je toliko lud da dolazi i da gleda
+   </event>
+   <event end="T420" start="T418">
+    jer mislim kao da mu je stalo do nekog javnog interesa. Onda su nas na kraju pitali: „A je l’ biste i vi tamo možda vikendicu?
+   </event>
+   <event end="T422" start="T420">
+    Kao “ Nije im jasno šta je iza svega, a oni su upravo ti koji bi trebalo da reaguju.
+   </event>
+   <event end="T424" start="T422">
+    Takođe onda čujete da je osoba koja je postala pre godinu i po ili dve dana izvesne rampe na tom nasipu
+   </event>
+   <event end="T427" start="T424">
+    rampe, koje predviđene za zabranu saobraćaja – ali nisu uopšte stavljene u funkciju samo su postavljene Gde je smenjena sa svoje funkcije da onda je drugi deo taj priče sa Goranom Vesićem
+   </event>
+   <event end="T430" start="T427">
+    i šta se tu sad dešava, šta mi možemo da očekujemo. Svi smo svedoci kako izgledaju radovi
+   </event>
+   <event end="T431" start="T430">
+    u Beogradu poslednjih godina,
+   </event>
+   <event end="T432" start="T431">
+    bilo da je Gospodska u Zemunu,
+   </event>
+   <event end="T434" start="T432">
+    bilo da je Trg Slavija, bilo da je Trg Republike.
+   </event>
+   <event end="T435" start="T434">
+    Znači tu se uradi i posle nekog vremena mora da se sanira.
+   </event>
+   <event end="T437" start="T435">
+    Očajna izvedba radova, sve izgleda kao da nema nadzora.
+   </event>
+   <event end="T441" start="T437">
+    Znači jedno veliko ludilo, ali ja smatram da u svakom ludilu ima sistema i da je to još jedan način za izvlačenje sredstava iz naših džepova.
+   </event>
+   <event end="T442" start="T441">
+    Ono što čega smo svedoci autsorsovanja javnih usluga.
+   </event>
+   <event end="T444" start="T442">
+    Recimo znači u svim parkovima sav mobilijar – klupe, ljuljaške, asfaltne staze
+   </event>
+   <event end="T445" start="T444">
+    – je dugo vremena radilo javno komunalno preduzeće Zelenilo.
+   </event>
+   <event end="T446" start="T445">
+    Javno komunalno preduzeće Zelenilo je 2000. godine imalo 300 zaposlenih građevinaca,
+   </event>
+   <event end="T447" start="T446">
+    koji su samo to radili,
+   </event>
+   <event end="T448" start="T447">
+    Znači oni nisu oni koji održavaju zelene javne površine  nego koji grade taj mobilijer 300 i osam administrativnih radnika.
+   </event>
+   <event end="T449" start="T448">
+    2015 se taj broj menja na 18 građevinaca i 15 administrativaca.
+   </event>
+   <event end="T450" start="T449">
+    Ove sve radove koje imamo
+   </event>
+   <event end="T736" start="T450">
+    koji se dešavaju uglavnom čujemo da izvode neke
+   </event>
+   <event end="T451" start="T736">
+    dobro ovo su teški građevinski radovi a recimo ovo javno komunalno gradi
+   </event>
+   <event end="T738" start="T451">
+    i uređuje na primer unutar novoizgrađenih blokova to radi, onda radili su upravo ovaj Tašmajdan park i tako nešto.
+   </event>
+   <event end="T739" start="T738">
+    S druge strane, problem koji dalje imamo s tim javnim uslugama je.
+   </event>
+   <event end="T455" start="T739">
+    Što na primer, na Novom Beogradu imamo problem sa đubrijerama, onim malim kanticama za đubre po blokovima. To nam je prepuno. Malo je i do mentaliteta,
+   </event>
+   <event end="T458" start="T455">
+    tu vole i hoće neki naši sugrađani da frljnu svoje đubre, jer im je teško da mrdnu 50 metara dalje do nekog propisnog kontejnera.
+   </event>
+   <event end="T461" start="T458">
+    A malo i do toga, što zahtevom za informacije od javnog značaja smo došli do informacije da je 1.1.2014. 75 komunlanih  radnika radilo taj posao čistilo
+   </event>
+   <event end="T465" start="T461">
+    unutarblokovskih prostora na Novom Beogradu Znači, to nisu ljudi koji idu s kamionima, nego đubretari-pešaci.
+   </event>
+   <event end="T462" start="T465">
+    10.10.2018.  22 komunalna radnika. Znači, oni su za 300% smanjili brojtih radnika, koju a mi plaćamo iznošenje đubreta isto onoliko,
+   </event>
+   <event end="T469" start="T462">
+    mislim uslugu isto plaćamo a triput je gora.
+   </event>
+   <event end="T484" start="T481">
+    Ja se izvinjavam, samo sam zaboravio još jednu stvar. Da kažem pošto živim u bloku 70   kod mene je prva partija koja je otvorila prostorije pre godinu ili godinu i po SNS.
+   </event>
+   <event end="T485" start="T484">
+    I zovu se Savski kej, kao oni tako im se zove odbor.
+   </event>
+   <event end="T490" start="T485">
+    Ja idem stalno kod njih i rekao sam im da se ne slažem sa njihovom politikom i sve, ali da me jako zanima šta planiraju za kraj, koje su im ideje i da ću da im skinem kapu za svaku dobru ideju.
+   </event>
+   <event end="T491" start="T490">
+    I uglavnom nemaju naravno nikakve ideje i to.
+   </event>
+   <event end="T494" start="T491">
+    I sada je sumanuto i ja njima kažem, u domu zdravlja ranije kada bi se razboleo primali su nas do kraja smene, sada morate da zakažete 10 dana unapred.
+   </event>
+   <event end="T744" start="T494">
+    Kod nas tamo u bloku, ja odem kod ovih i kažem takva i takva stvar.
+   </event>
+   <event end="T496" start="T744">
+    Dajte, pogurajte tamo da ga prošire, neka se sagradi i treći za Novi Beograd ima nas ko kusi pasa
+   </event>
+   <event end="T497" start="T496">
+    Kao ona žena klimne i ja sledeći put kad sam nešto došao,
+   </event>
+   <event end="T498" start="T497">
+    ona kaže: sledeći put kad se razboliš,
+   </event>
+   <event end="T499" start="T498">
+    dođeš kod teta Rade,
+   </event>
+   <event end="T500" start="T499">
+    teta Rada pozove i prime te istog dana. Tako.
+   </event>
+   <event end="T589" start="T587">
+    traže tu podršku s terena, da bi onda oni unutar institucija mogli
+   </event>
+   <event end="T590" start="T589">
+    možda malo bolje da deluju.
+   </event>
+   <event end="T591" start="T590">
+    Mislim, iz nekih tih neformalnih razgovora od ljudi iz raznih inicijativa,
+   </event>
+   <event end="T595" start="T591">
+    kažu zapravo da su im i unutar institucija signalizirali – pa dajte, napravite protest, napravite pritisak.pa ćemo onda, mi kao neštoodličan model što se tiče savskog keja postoji u Beču.
+   </event>
+   <event end="T599" start="T595">
+    Tamo ‘70-ih godina na nekom prostoru između Beča i Bratislave su hteli da prave hidroelektranu. Ljudi su ustali i odbranili taj deoi to je sad park prirode koji se zove Donau-Auen.
+   </event>
+   <event end="T600" start="T599">
+    I tamo je zabranjeno kretanje bilo kakvih motornih vozila.
+   </event>
+   <event end="T602" start="T600">
+    Tamo kada je stablo mrtvo i kada padne i isuši se, oni ga ostave zato što takvo stablo
+   </event>
+   <event end="T603" start="T602">
+    privlači određene insekte i ne znam šta čini za biodiverzitet.
+   </event>
+   <event end="T607" start="T603">
+    Već a kod nas na Savskom nasipu kad im pao oni seku te, obrezuju sami, jer će da im ugrozi te njihove vikendice.Recimo, inicijativa „Pešaci nisu maratonci“ oni su od ovog parkiću na Oblićevom vencu, zapravo su sprečili
+   </event>
+   <event end="T758" start="T607">
+    seču visokog drveća,uspeli su da izvrše pritisak da to visoko drveće ipak ostane i da to ne bude sad klasičan neki betonski plato.kakav su skver oni su Grad je hteo skver da napravi od parka
+   </event>
+   <event end="T611" start="T758">
+    kod vojvode Vuka spomenik vojvode Vuku I oni su se izborili da dobiju park da im ostane park.
+   </event>
+   <event end="T612" start="T611">
+    I oni su redom hteli da im cvikuju stabla, sva
+   </event>
+   <event end="T613" start="T612">
+    a ima zdravih stabala.
+   </event>
+   <event end="T615" start="T613">
+    Evo prođite pa će te videti kolika su blokada radova, trebalo je dve godine valjda da ih grad uzme kao za ozbiljno,
+   </event>
+   <event end="T617" start="T615">
+    da ih uvaži i da sedne s njima da razgovara. Ali to je najnormalnija stvar.
+   </event>
+   <event end="T618" start="T617">
+    Ako radite nama, našim parama, u našem kraju,
+   </event>
+   <event end="T621" start="T618">
+    red je da nas pitate šta nam treba ili ne treba. Tako da samo ljuto i na braniku otadžbine. Nema druge.
+   </event>
+  </tier>
+  <tier category="v" display-name="Pizp [v]" id="TIE16" speaker="Pizp" type="t">
+   <event end="T622" start="T621">
+    Aplauz
+   </event>
+   <event end="T623" start="T622">
+    Pa žao mi je da govorimo o dekonstrukciji Beograda, a da ne pomenemo most
+   </event>
+   <event end="T624" start="T623">
+    i somnabulnu ideju da onaj most ide u park.
+   </event>
+   <event end="T625" start="T624">
+    Ustvari i glavna stvar kako ćemo to da sprečimo?
+   </event>
+   <event end="T661" start="T659">
+    Ja sam arhitekta Miletić i dosta dugo 30 godina sam radila kao zakonodavac
+   </event>
+   <event end="T662" start="T661">
+    i vođa velikih tendera u Australiji.
+   </event>
+   <event end="T663" start="T662">
+    Urbanizam nije pronađen juče.
+   </event>
+   <event end="T664" start="T663">
+    Rimljani su imali postavljene urbanističke principe
+   </event>
+   <event end="T665" start="T664">
+    i svi znamo zašto: to je sigurnost grada.
+   </event>
+   <event end="T666" start="T665">
+    To je da grad ne sagori.
+   </event>
+   <event end="T668" start="T666">
+    Mi znamo da je u srednjem veku je bilo i kuge i raznih oboljenja,
+   </event>
+   <event end="T672" start="T668">
+    baš zato što nije bilo vodovoda, kanalizacije, trotoara, ulica.Itd  Beograd je i dalje linearan grad koji urbanistički nije rešavan 100-200 godina
+   </event>
+   <event end="T673" start="T672">
+    i koji mora urbanistički da se reši,
+   </event>
+   <event end="T676" start="T673">
+    jer će jednostavno izumreti kao grad. Gde je ovde pravna služba? Gde su ovde pravnici, gde su ovde zakonodavci
+   </event>
+   <event end="T677" start="T676">
+    da se udruže na ovim tribinama?
+   </event>
+   <event end="T678" start="T677">
+    Oni jednostavno nisu svesni
+   </event>
+   <event end="T680" start="T678">
+    da naša deca neće imati trotoare kuda da hodaju, neće imati čistu vodu da piju.
+   </event>
+   <event end="T681" start="T680">
+    I bruka je i sramota da se sve ne sruši što ste sve rekli na savskom delu.
+   </event>
+   <event end="T682" start="T681">
+    To je protivzakonito, to je protiv higijene.
+   </event>
+   <event end="T683" start="T682">
+    Tu ima milionm i jedna stvar protiv zakona. U tom smislu ne znam.  Jer i ja imam skoro sam se vratila i trudim se da se uključim u sve,
+   </event>
+   <event end="T685" start="T683">
+    ali ja ne znam koji je pravni lek ovome. Ovo mora malo ozbiljnije.
+   </event>
+  </tier>
+ </basic-body>
+</basic-transcription>
