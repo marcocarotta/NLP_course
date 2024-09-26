@@ -1,13 +1,10 @@
 from bs4 import BeautifulSoup
 
-def process_file(file):
+def process_file_tier(file):
     with open(file, 'r') as input:
         content = input.read()
     input_soup = BeautifulSoup(content, 'xml') 
     
-    #for ct in input_soup.find_all('common-timeline'):
-        ##### FAR FROM FINISHED #####
-
     for tier in input_soup.find_all('tier'): # find all the tiers
         # print("Tier id is: ",tier['id'])
         events_to_merge = [] # list of events to merge
@@ -31,7 +28,7 @@ def process_file(file):
             while event.next_sibling and event.next_sibling.name != 'event': ## with the next sibling you get also spaces, commas and \n
                 event.next_sibling.extract()
             event = event.next_sibling
-        print("\n\n\n")
+        # print("\n\n\n")
 
         for event in tier.find_all('event'):
             event.insert_after(BeautifulSoup('\n', 'html.parser'))
@@ -70,8 +67,37 @@ def remove_tt(text):
             return text.replace('TT ', '')
         else:
             return text.replace('TT', '')"""
-            
     
+
+def processing_file_timeline(file):
+    with open(file, 'r') as input:
+        content = input.read()
+    input_soup = BeautifulSoup(content, 'xml') 
+
+    timeline = input_soup.find('common-timeline')
+    tiers = input_soup.find_all('tier')
+
+    for tli in timeline.find_all('tli'):
+        thereis = False
+        for tier in tiers:
+            for event in tier.find_all('event'):
+                if event['start']== tli['id'] or event['end'] == tli['id']:
+                    # print("event: ", event, "tli: ", tli)
+                    thereis = True
+                    break
+            if thereis == True:
+                break
+        if thereis == False:
+            # print("tli previous sibling: ", tli.previous_sibling)
+            tli.previous_sibling.extract() # remove \n char before tli
+            # print("tli: ",tli)
+            tli.extract() # remove tli
+    
+    return str(input_soup)
+
+
+
+
         
 # save the changes to a new file
 def save_file(file, content):
@@ -136,20 +162,59 @@ def compare_files_tiers(file1, file2):
     else:
         print("\t[tier_check]I file sono diversi", check)
 
+
+def compare_files_timeline(file1, file2):
+    with open(file1, 'r') as f1, open(file2, 'r') as f2:
+        content1 = f1.read()
+        content2 = f2.read()
+    soup1 = BeautifulSoup(content1, 'xml')
+    soup2 = BeautifulSoup(content2, 'xml')
+    
+    timeline1 = soup1.find('common-timeline')
+    timeline2 = soup2.find('common-timeline')
+
+    tli1 = timeline1.find_all('tli')
+    tli2 = timeline2.find_all('tli')
+
+    check = 0
+    if len(tli1) == len(tli2):
+        for i in range(len(tli1)):
+            if tli1[i].attrs == tli2[i].attrs:
+                continue
+            else:
+                check += 1
+    else:
+        check += 1
+    
+    if check == 0:
+        print("\t[timeline_check]I file sono uguali, controllando solo la timeline")
+    else:
+        print("\t[timeline_check]I file sono diversi", check)
+
 def main():
     input = 'exercise_1/in_example.exb'
     true_output = 'exercise_1/out_example.exb'
     output = 'exercise_1/my_out_example.exb'
 
-    print("[main] Processing del file di input...")
-    content = process_file(input)
-    print("[main] Processing completato.")
-    print("[main] Salvataggio dell'output...")
+    print("[main] Processing dei tier file di input...")
+    content = process_file_tier(input)
     save_file(output, content)
-    print("[main] Salvataggio completato.")
+    print("[main] Processing dei tier completato.")
+
+    print("[main] Processing the common timeline...")
+    content = processing_file_timeline(output)
+    save_file(output, content)
+    print("[main] Processing of the timeline completed.")
 
     print("[main] Confronto tra i tier del file di output e quello di riferimento...")
     compare_files_tiers(true_output, output)
+    print("[main] Confronto tra i tier completato.")
+
+    print("[main] Confronto tra le timeline del file di output e quello di riferimento...")
+    compare_files_timeline(true_output, output)
+    print("[main] Confronto tra le timeline completato.")
+
+    print("[main] All done.")
 
 if __name__ == "__main__":
     main()
