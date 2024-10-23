@@ -1,5 +1,6 @@
-
 import numpy as np
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 
 def check_enough_words(input_file, min_words=100000):
     """
@@ -22,7 +23,7 @@ def check_enough_words(input_file, min_words=100000):
 
     return words, enough_words
 
-def make_cooccurence_matrix(words, basis_word, target_word, window_size=5):
+def make_cooccurence_matrix(words, basis_word, target_word, window_size=5): #TODO fix it, it's broken, the results is always zero
     """
     Creates a co-occurrence matrix where the rows are the target words and the columns are the context words (basis words) and in each cell there is how many times the target word appears in the context of the basis word
 
@@ -111,9 +112,26 @@ def make_pca(ppmi_matrix, n_components=2):
 
     return pca_matrix
 
+def plot_pca(pca_matrix, target_word):
+    """
+    Plots the PCA matrix.
+
+    Args:
+        pca_matrix: the PCA matrix
+        target_word: the target words
+    """
+    # Plot the PCA matrix
+    plt.figure(figsize=(10, 10))
+    plt.scatter(pca_matrix[:, 0], pca_matrix[:, 1])
+    for i, word in enumerate(target_word):
+        plt.annotate(word, (pca_matrix[i, 0], pca_matrix[i, 1]))
+    plt.xlabel('PC1')
+    plt.ylabel('PC2')
+    plt.title('PCA')
+    plt.show()
+
 if __name__ == '__main__':
     data = 'tp_1/data_preprocessed.txt'
-
     words, _ = check_enough_words(data)
     basis_word, _ = check_enough_words('tp_1/B.txt', min_words=200)
     target_word, _ = check_enough_words('tp_1/T.txt', min_words=50)
@@ -121,5 +139,21 @@ if __name__ == '__main__':
     input("Do you want to continue? Press Enter to continue...")
 
     cooccurrence_matrix = make_cooccurence_matrix(words, basis_word, target_word)
+    print("Co-occurrence matrix:")
+    print(cooccurrence_matrix)
+
+    ppmi_matrix = make_positive_pointwise_mutual_information(cooccurrence_matrix)
+
+    # check for NaNs
+    if np.isnan(ppmi_matrix).sum():
+        print(np.isnan(ppmi_matrix).sum())
+    else:
+        print("There are no NaNs in the PPMI matrix")
+
+    # substitute NaNs with 0
+    ppmi_matrix = np.nan_to_num(ppmi_matrix)
+
+    pca_matrix = make_pca(ppmi_matrix)
+    plot_pca(pca_matrix, target_word)
 
 
