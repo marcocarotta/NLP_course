@@ -21,7 +21,7 @@ def check_enough_words(input_file, min_words=100000):
     enough_words = len(words) >= min_words
     print("Reading ",input_file,f". Found {len(words)} words. {'Enough words for the assignment\n' if enough_words else 'Not enough words for the assignment\n'}")
 
-    return words, enough_words
+    return words, enough_words 
 
 def make_cooccurence_matrix(words, basis_word, target_word, window_size=5): #TODO fix it, it's broken, the results is always zero
     """
@@ -36,9 +36,12 @@ def make_cooccurence_matrix(words, basis_word, target_word, window_size=5): #TOD
     Returns:
         cooccurrence_matrix: a numpy matrix of size len(target_word)*len(basis_word) 
     """
+
+    print("Creating co-occurrence matrix...")
     half_window = window_size // 2
-    # Get the indices of the basis word
-    basis_indices = [(i, word) for i, word in enumerate(words) if word == basis_word]
+
+    # Creat a boolean dictionary for the context word
+    context_boolean_dict = {word:True for word in basis_word}
 
     # Create a boolean dictionary for the target word
     target_boolean_dict = {word: True for word in target_word}
@@ -46,12 +49,17 @@ def make_cooccurence_matrix(words, basis_word, target_word, window_size=5): #TOD
     # Create the co-occurrence dictionary
     cooccurrence_dict = {}
 
+    print(context_boolean_dict) 
+    print(target_boolean_dict)
+
     # Fill the co-occurrence dictionary
-    for k, context_word in basis_indices:
-        window = words[max(0, k-half_window):k] + words[k+1:min(len(words), k+half_window+1)]
-        for word in window:
-            if word in target_boolean_dict:
-                cooccurrence_dict[(word, context_word)] = cooccurrence_dict.get((word, context_word), 0) + 1
+    for k in range(0,len(words)):
+        context_word = words[k]
+        if context_boolean_dict.get(context_word, False):
+            window = words[max(0, k-half_window):k] + words[k+1:min(len(words), k+half_window+1)]
+            for word in window:
+                if target_boolean_dict.get(word,False):
+                    cooccurrence_dict[(word, context_word)] = cooccurrence_dict.get((word, context_word), 0) + 1
                 
     # Create the co-occurrence matrix
     cooccurrence_matrix = np.zeros((len(target_word), len(basis_word)))
@@ -95,7 +103,7 @@ def make_positive_pointwise_mutual_information(cooccurrence_matrix):
 
     return ppmi_matrix
 
-def make_pca(ppmi_matrix, n_components=2):
+def make_pca(ppmi_matrix, n_components=2): ## THIS IS WRONG, READ THE ASSIGNEMENT
     """
     Creates a PCA matrix from the given positive pointwise mutual information matrix.
 
@@ -109,6 +117,11 @@ def make_pca(ppmi_matrix, n_components=2):
     # Perform PCA
     pca = PCA(n_components=n_components)
     pca_matrix = pca.fit_transform(ppmi_matrix)
+
+    print("Explained variance ratio: ", pca.explained_variance_ratio_)
+    print("Total explained variance: ", np.sum(pca.explained_variance_ratio_))
+    print("PCA matrix shape: ", pca_matrix.shape)
+
 
     return pca_matrix
 
@@ -136,7 +149,11 @@ if __name__ == '__main__':
     basis_word, _ = check_enough_words('tp_1/B.txt', min_words=200)
     target_word, _ = check_enough_words('tp_1/T.txt', min_words=50)
 
-    input("Do you want to continue? Press Enter to continue...")
+    # input("Do you want to continue? Press Enter to continue...")
+
+    print(words[:100])
+    print(basis_word[:100])
+    print(target_word)
 
     cooccurrence_matrix = make_cooccurence_matrix(words, basis_word, target_word)
     print("Co-occurrence matrix:")
@@ -153,7 +170,5 @@ if __name__ == '__main__':
     # substitute NaNs with 0
     ppmi_matrix = np.nan_to_num(ppmi_matrix)
 
-    pca_matrix = make_pca(ppmi_matrix)
+    pca_matrix = make_pca(ppmi_matrix) # this is wrong, read the assignement, but with cooccurrence_matrix seems to give strange results
     plot_pca(pca_matrix, target_word)
-
-
