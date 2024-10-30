@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.decomposition import PCA
+import os
 import matplotlib.pyplot as plt
 
 def check_enough_words(input_file, min_words=100000):
@@ -90,9 +91,8 @@ def make_positive_pointwise_mutual_information(cooccurrence_matrix):
     column_probabilities = column_sums / total_sum
 
     # Calculate the pointwise mutual information
-    ppmi_matrix = np.log(cooccurrence_matrix * total_sum / (row_sums[:, None] * column_sums[None, :]))
-
-    # Replace negative values with zeros
+    ppmi_matrix = np.zeros(cooccurrence_matrix.shape)
+    ppmi_matrix = np.log2((cooccurrence_matrix * total_sum)/(row_sums[:, None] * column_sums[None, :])) # the denominator is a column vector times a row vector and the result is a matrix of the correct shape
     ppmi_matrix[ppmi_matrix < 0] = 0
 
     # Check size of the matrix
@@ -122,7 +122,6 @@ def make_pca(ppmi_matrix, n_components=2): ## THIS IS WRONG, READ THE ASSIGNEMEN
     print("Total explained variance: ", np.sum(pca.explained_variance_ratio_))
     print("PCA matrix shape: ", pca_matrix.shape)
 
-
     return pca_matrix
 
 def plot_pca(pca_matrix, target_word):
@@ -143,19 +142,82 @@ def plot_pca(pca_matrix, target_word):
     plt.title('PCA')
     plt.show()
 
+def compute_cosine_similarity(ppmi_matrix, target_words):
+    """
+    Calculate the cosine similarity matrix T x T using the PPMI co-occurrence matrix. A cosine similarity matrix (T x T) is computed by iterating through all pairs of target words and computing the cosine similarity using their respective PPMI vectors.
+    cosine_similarity  =𝑥⋅𝑦||𝑥||⋅||𝑦||
+
+    Args:
+        ppmi_matrix: the positive pointwise mutual information matrix
+        target_words: the target words
+
+    Returns:
+        most_similar_couples: a list of tuples containing the most similar target words
+    """
+
+    # Calculate the cosine similarity matrix
+    cosine_similarity_matrix = np.zeros((len(target_words), len(target_words)))
+    for i in range(len(target_words)):
+        for j in range(len(target_words)):
+            cosine_similarity_matrix[i, j] = np.dot(ppmi_matrix[i], ppmi_matrix[j]) / (np.linalg.norm(ppmi_matrix[i]) * np.linalg.norm(ppmi_matrix[j]))
+
+    # Find the most similar target words
+    most_similar_couples = []
+
+    for i in range(len(target_words)):
+        cosine_similarity_matrix[i, i] = -1
+
+    for i in range(len(target_words)):
+        max_index = np.argmax(cosine_similarity_matrix[i])
+
+        most_similar_couples.append((target_words[i], target_words[max_index]))
+
+    return most_similar_couples
+
+
+
+
 if __name__ == '__main__':
-    data = 'tp_1/data_preprocessed.txt'
-    words, _ = check_enough_words(data)
-    basis_word, _ = check_enough_words('tp_1/B.txt', min_words=200)
-    target_word, _ = check_enough_words('tp_1/T.txt', min_words=50)
+    words_path = 'tp_1/data_preprocessed.txt'
+    b_words_path = 'tp_1/B.txt'
+    t_words_path = 'tp_1/T.txt'
 
-    # input("Do you want to continue? Press Enter to continue...")
+    check = True
+    while check:
+        yes_or_no = input("Do you want to use custom dataset? Type 'y' to choose the paths or 'n' to use default data... ")
+        if yes_or_no == "y":
+            check = False
+        elif yes_or_no == "n":
+            check = False
+        else:
+            print("Invalid input. Please press 'y' or 'n' to continue...")
+        
+    if yes_or_no == "y":
+        words_path = input("Enter the path of the words file: ")
+            # Check if the path is valid
+        while not os.path.isfile(words_path):
+            print(f"Error: The file {words_path} does not exist.")
+            words_path = input("Enter a valid path of the words file: ")
 
-    print(words[:100])
-    print(basis_word[:100])
-    print(target_word)
+        b_words_path = input("Enter the path of the basis words file: ")
+        while not os.path.isfile(b_words_path):
+            print(f"Error: The file {b_words_path} does not exist.")
+            b_words_path = input("Enter a valid path of the basis words file: ")
 
-    cooccurrence_matrix = make_cooccurence_matrix(words, basis_word, target_word)
+        t_words_path = input("Enter the path of the target words file: ")
+        while not os.path.isfile(t_words_path):
+            print(f"Error: The file {t_words_path} does not exist.")
+            t_words_path = input("Enter a valid path of the target words file: ")
+    
+    words, _ = check_enough_words(words_path, min_words=100000)
+    basis_word, _ = check_enough_words(b_words_path, min_words=200)
+    target_words, _ = check_enough_words(t_words_path, min_words=50)
+
+    print("Words: ", words[:100])
+    print("Basis words", basis_word[:100])
+    print("Target words", target_words[:100])
+
+    cooccurrence_matrix = make_cooccurence_matrix(words, basis_word, target_words)
     print("Co-occurrence matrix:")
     print(cooccurrence_matrix)
 
@@ -164,11 +226,15 @@ if __name__ == '__main__':
     # check for NaNs
     if np.isnan(ppmi_matrix).sum():
         print(np.isnan(ppmi_matrix).sum())
+        raise ValueError("Error: The PPMI matrix contains NaNs")
     else:
         print("There are no NaNs in the PPMI matrix")
 
-    # substitute NaNs with 0
-    ppmi_matrix = np.nan_to_num(ppmi_matrix)
+    pca_matrix = make_pca(ppmi_matrix) 
+    plot_pca(pca_matrix, target_words)
 
-    pca_matrix = make_pca(ppmi_matrix) # this is wrong, read the assignement, but with cooccurrence_matrix seems to give strange results
-    plot_pca(pca_matrix, target_word)
+    pca_matrix = make_pca(cooccurrence_matrix)
+    plot_pca(pca_matrix, target_words)
+
+    most_similar_couples = compute_cosine_similarity(ppmi_matrix, target_words)
+    print("Most similar target words: \n", most_similar_couples)
